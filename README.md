@@ -1,5 +1,6 @@
 # Java + DSA Progress 🚀
 
+Inspired by [Kunal Kushwaha](https://github.com/kunal-kushwaha) and his DSA Bootcamp.
 This repository tracks my journey of learning **Java, Data Structures & Algorithms**, following the bootcamp by Kunal Kushwaha.
 
 ---
