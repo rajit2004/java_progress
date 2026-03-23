@@ -29,7 +29,10 @@ public class TwoD_arrays {
             for(int col : row){                     // same as 1-d array . iterates over all elements of a 1-d array
                 System.out.print(col + " ");
             }
+            System.out.println();
         }
-
+        for(int[] row : arr){
+            System.out.println(Arrays.toString(row));
+        }
     }
 }
