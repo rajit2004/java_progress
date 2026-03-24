@@ -17,17 +17,17 @@ public class isPrime {
     }
     static void is_prime(int a) {
         if (a <= 1) {
-            System.out.println("Not a prime number!");
+            System.out.println("Not a methods.prime number!");
             return;
         }
 
         for (int i = 2; i < a; i++) {
             if (a % i == 0) {
-                System.out.println("Not a prime number!");
+                System.out.println("Not a methods.prime number!");
                 return;
             }
         }
 
-        System.out.println("Is a prime number!");
+        System.out.println("Is a methods.prime number!");
     }
 }
