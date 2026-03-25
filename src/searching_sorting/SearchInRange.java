@@ -22,6 +22,10 @@ public class SearchInRange {
 
     }
     static String SearchFruit(String[] arr , String target ,int st , int end){
+
+        if (st < 0 || end >= arr.length || st > end)
+            return "invalid range!";
+
         for(int i = st ; i <= end ; i++){
             if (arr[i].equalsIgnoreCase(target))
                 return "Found at index : "+ i;

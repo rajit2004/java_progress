@@ -20,6 +20,10 @@ public class SearchNUMinRange{
         System.out.println(find(arr , target , index1 , index2));
     }
     static String find(int[] arr , int target , int i1 , int i2){
+
+        if(i1<0 || i2>=arr.length || i1>i2)
+            return "invalid range!";
+
         for(int i = i1 ; i < i2 ; i++ ){
             if(arr[i] == target)
                 return "Found at index :" + i;
