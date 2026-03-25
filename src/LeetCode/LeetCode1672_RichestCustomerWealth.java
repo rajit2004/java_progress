@@ -1,4 +1,4 @@
-package searching_sorting;
+package LeetCode;
 
 public class LeetCode1672_RichestCustomerWealth {
     public static void main(String[] args) {
