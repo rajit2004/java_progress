@@ -1,0 +1,4 @@
+| Condition           | Ascending              | Descending             |
+| ------------------- | ---------------------- | ---------------------- |
+| `target < arr[mid]` | move LEFT (`end--`)    | move RIGHT (`start++`) |
+| `target > arr[mid]` | move RIGHT (`start++`) | move LEFT (`end--`)    |
