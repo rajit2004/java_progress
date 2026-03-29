@@ -1,10 +1,8 @@
 package searching_sorting;
 
-//also called staircase search
-
 import java.util.Arrays;
 
-public class BS2dArray {
+public class StairCaseSearch_2dArray {
     public static void main(String[] args) {
         int target = 24;
         int[][] array = {{1, 4, 7, 11, 15, 20},
