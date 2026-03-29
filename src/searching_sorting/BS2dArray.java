@@ -6,13 +6,16 @@ import java.util.Arrays;
 
 public class BS2dArray {
     public static void main(String[] args) {
-        int target = 37;
-        int[][] array = {{10,20,30,40},{15,25,35,45},{28,29,37,49},{33,34,38,50}};
+        int target = 24;
+        int[][] array = {{1, 4, 7, 11, 15, 20},
+                {2, 5, 8, 12, 19, 25},
+                {3, 6, 9, 16, 22, 27},
+                {10, 13, 14, 17, 24, 30}};
         System.out.println(Arrays.toString(search(array,target)));
     }
     static int[] search(int[][] matrix , int target){
         int row = 0;
-        int col = matrix.length-1;
+        int col = matrix[0].length-1;
 
         while (row < matrix.length && col >= 0){
             if(matrix[row][col] == target){
