@@ -1,4 +1,4 @@
-package searching_sorting;
+package searching;
 
 public class SearchInString {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package searching_sorting;
+package searching;
 
 public class linear_search_int {
     public static void main(String[] args) {

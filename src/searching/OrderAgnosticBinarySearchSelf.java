@@ -1,6 +1,6 @@
 //works on both ascending and descending order
 //enhanced version of binary search
-package searching_sorting;
+package searching;
 
 public class OrderAgnosticBinarySearchSelf {
     public static void main(String[] args) {

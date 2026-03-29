@@ -1,6 +1,6 @@
 //Given an array nums of integers, return how many of them contain an even number of digits.
 
-package searching_sorting;
+package searching;
 
 public class Count_no_of_digits {
     public static void main(String[] args) {

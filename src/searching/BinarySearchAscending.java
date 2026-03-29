@@ -1,4 +1,4 @@
-package searching_sorting;
+package searching;
 
 //binary search for ascending order elements in array
 
