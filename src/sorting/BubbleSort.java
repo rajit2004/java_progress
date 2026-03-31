@@ -7,6 +7,7 @@ public class BubbleSort {
         int[] array = {17, -4, 23, 0, -15, 8, 3, -9, 12, -1, 6, -20, 14, 5, -7, 19, -2, 11, -13, 2};
         System.out.println(Arrays.toString(bubble(array)));
     }
+
     static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
