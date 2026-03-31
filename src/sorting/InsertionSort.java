@@ -5,6 +5,6 @@ public class InsertionSort {
 
     }
     static int[] sort(int[] arr){
-        return new int[] {-1,-1};
+        return arr;
     }
 }
