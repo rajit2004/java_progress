@@ -20,7 +20,6 @@ public class InsertionSortSwappingMethod {
                 else
                     break;
             }
-
         }
         return arr;
     }
