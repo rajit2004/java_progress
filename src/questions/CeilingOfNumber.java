@@ -3,10 +3,14 @@ package questions;
 public class CeilingOfNumber {
     public static void main(String[] args) {
         int[] nums = {2,3,5,9,14,16,18};
-        int target = 5;
+        int target = 52;
         System.out.println(ceiling(nums,target));
     }
     static int ceiling(int[] arr , int target){
+
+        if(target > arr[arr.length-1])
+            return 0;       // tells that the target is greater than the largest element of the array itself
+
         int st = 0;
         int end = arr.length-1;
         while(st<=end){
