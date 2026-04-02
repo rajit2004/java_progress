@@ -1,9 +1,9 @@
-package LeetCode;
+package questions;
 
-public class LeetCode_ {
+public class CeilingOfNumber {
     public static void main(String[] args) {
         int[] nums = {2,3,5,9,14,16,18};
-        int target = 1;
+        int target = 5;
         System.out.println(ceiling(nums,target));
     }
     static int ceiling(int[] arr , int target){
