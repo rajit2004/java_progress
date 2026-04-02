@@ -23,7 +23,7 @@ public class LeetCode744_FindSmallestLetterGreaterThanTarget {
         }
 
         // if target is greater than or equal to all elements
-        if(start == letters.length){
+        if(start == letters.length){            // start = end + 1      end -> arr.length - 1
             return letters[0];
         }
         return letters[start];
