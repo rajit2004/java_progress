@@ -1,5 +1,7 @@
 package LeetCode;
 
+// same as the ceiling of the number question . uses same concept
+
 public class LeetCode744_FindSmallestLetterGreaterThanTarget {
     public static void main(String[] args) {
         char[] letters = {'a','c','e','g','i','k','m','o','q','s','u','w','y'};
