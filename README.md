@@ -30,8 +30,8 @@ Inspired by the structure of the original bootcamp repository, which provides co
 - ✅ Loops & Iteration
 - ✅ Functions / Methods
 - ✅ Number-based problems (Prime, Armstrong, etc.)
-- 🔜 Arrays & ArrayList
-- 🔜 Searching & Sorting
+- ✅ Arrays & ArrayList
+- ✅ Searching & Sorting
 - 🔜 Recursion & Backtracking
 - 🔜 DSA (Linked List, Trees, Graphs, etc.)
 
