@@ -7,6 +7,10 @@ public class FloorOfNumber {
         System.out.println(floor(arr,target));
     }
     static int floor(int[] array , int target){
+
+        if(target<array[0])
+            return 0;       // tells that the target elements is smaller that the smallest element itself
+
         int st = 0;
         int end = array.length-1;
 
