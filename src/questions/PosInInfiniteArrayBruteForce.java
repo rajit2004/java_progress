@@ -9,16 +9,19 @@ public class PosInInfiniteArrayBruteForce {
         System.out.println(PositionBruteForce(array,target));
 
     }
-//    static int PositionBruteForce(int[] arr , int target){
-//        int index = 0;
-//        for(int element : arr){
-//            if(element == target)
-//                return index;
-//        index++;
-//        }
-//        return -1;
-//    }
 
+/*
+    this method internally uses arr.length method
+    static int PositionBruteForce(int[] arr , int target){
+        int index = 0;
+        for(int element : arr){
+            if(element == target)
+                return index;
+        index++;
+        }
+        return -1;
+    }
+*/
     static int PositionBruteForce(int[] arr , int target){
         int i = 0;
 
