@@ -12,11 +12,11 @@ public class PosInInfiniteArrayOptimized {
     /*
     STEPS:
         1.) find range in which the target is present
-            *) declare a single chunk of array -> find -> if it exists apply binary search on it -> if not double the range
+            *> declare a single chunk of array -> find -> if it exists apply binary search on it -> if not double the range
 
         SIZE OF BOX = end - st + 1
     */
-    static int binarysearch(int[] arr , int target , int st , int end){
+    static int BinarySearch(int[] arr , int target , int st , int end){
        while(st<=end){
            int mid = st + (end-st)/2;
            if(target==arr[mid])
@@ -39,6 +39,6 @@ public class PosInInfiniteArrayOptimized {
             end = end + (end - start + 1) * 2;                  //new end (current end + double the size of box)
             start = newStart;
         }
-        return binarysearch(arr , target , start , end);
+        return BinarySearch(arr , target , start , end);
     }
 }
