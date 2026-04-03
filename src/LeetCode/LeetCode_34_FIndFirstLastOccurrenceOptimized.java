@@ -22,7 +22,7 @@ public class LeetCode_34_FIndFirstLastOccurrenceOptimized {
         while(st<=end){
             int mid = st + (end-st)/2;
             if(target == arr[mid]){
-                ans = mid;
+                ans = mid;          // possible answer (but there still may be an element which is present behind it in the array)
                 if(StartEnd)
                     end = mid - 1;
                 else
