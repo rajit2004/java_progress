@@ -1,5 +1,7 @@
 package LeetCode;
 
+//https://leetcode.com/problems/peak-index-in-a-mountain-array/description/
+
 public class LeetCode_852_PeakIndexInMountainArrayBruteForce {
     public static void main(String[] args) {
         int[] array = {1, 3, 7, 12, 18, 25, 21, 16, 10, 5, 2};
