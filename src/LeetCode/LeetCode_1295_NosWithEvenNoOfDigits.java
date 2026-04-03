@@ -3,7 +3,7 @@
 
 package LeetCode;
 
-public class LeetCode_1295 {
+public class LeetCode_1295_NosWithEvenNoOfDigits {
     public static void main(String[] args) {
 
         int[] arr = {23, -500, 78, 102, -34, 5612, 9, -111, 4210, 173};
