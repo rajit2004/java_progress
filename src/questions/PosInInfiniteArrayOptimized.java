@@ -36,7 +36,7 @@ public class PosInInfiniteArrayOptimized {
 //        condition for target to be in the range
         while(target > arr[end]){
             int newStart = end + 1;                             //new start
-            end = end + (end - start + 1) * 2;                  //new end (current end + double the size of box
+            end = end + (end - start + 1) * 2;                  //new end (current end + double the size of box)
             start = newStart;
         }
         return binarysearch(arr , target , start , end);
