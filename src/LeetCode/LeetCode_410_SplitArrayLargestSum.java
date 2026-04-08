@@ -9,7 +9,6 @@ Return the minimized largest sum of the split.
 A subarray is a contiguous part of the array.
 */
 
-import java.util.Arrays;
 
 public class LeetCode_410_SplitArrayLargestSum {
     public static void main(String[] args) {
@@ -60,5 +59,40 @@ public class LeetCode_410_SplitArrayLargestSum {
 
         }
         return end;
+    }
+
+//    everything in a single fn no extra helper fn.
+    static int splitArray(int[] nums, int m) {
+
+        int start = 0, end = 0;
+        for (int num : nums) {
+            start = Math.max(start, num);
+            end += num;
+        }
+
+        while (start < end) {
+            int mid = start + (end - start) / 2;
+
+            int sum = 0;
+            int pieces = 1;
+
+            for (int num : nums) {
+                if (sum + num > mid) {
+                    sum = num;
+                    pieces++;
+                    if (pieces > m) break;
+                } else {
+                    sum += num;
+                }
+            }
+
+            if (pieces > m) {
+                start = mid + 1;
+            } else {
+                end = mid;
+            }
+        }
+
+        return start;
     }
 }
