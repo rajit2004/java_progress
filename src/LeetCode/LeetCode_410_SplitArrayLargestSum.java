@@ -13,22 +13,16 @@ import java.util.Arrays;
 
 public class LeetCode_410_SplitArrayLargestSum {
     public static void main(String[] args) {
-        int[] arr = {7, 2, 5, 10, 8};
-        int m = 2;           // tells us how many subarrays we have to make from the array
-        System.out.println(sumSubArrays(arr,2));
+        int[] arr = {1,1,1,1,1,3,2};
+        int m = 5;           // tells us how many subarrays we have to make from the array
+        System.out.println(sumSubArrays(arr,m));
     }
     static int max(int[] arr){
-        int st = 0;
-        int end = arr.length-1;
-
-        while(st<end){
-            int mid = st + (end-st)/2;
-            if(arr[mid]<arr[mid+1])
-                st = mid+1;
-            else
-                end = mid;
+        int max = arr[0];
+        for(int ele : arr){
+            max = Math.max(max, ele);
         }
-        return arr[st];
+        return max;
     }
 
     static int sum(int[]arr){
