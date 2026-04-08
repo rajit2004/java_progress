@@ -1,6 +1,6 @@
 package LeetCode;
 
-public class LeetCode1672_RichestCustomerWealth {
+public class LeetCode_1672_RichestCustomerWealth {
     public static void main(String[] args) {
         int[][] account = {
                 {3, 7, 1},
