@@ -1,5 +1,7 @@
 package LeetCode;
 
+// simple linear search and count
+
 public class LeetCode_169_MajorityElement_Loops {
     public static void main(String[] args) {
         int[] arr = {2,2,1,1,1,2,2};
