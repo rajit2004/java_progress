@@ -4,14 +4,21 @@ import java.util.Arrays;
 
 public class LeetCode_66_PlusOne {
     public static void main(String[] args) {
-        int[] num = {1,2,3};
+        int[] num = {9};
         System.out.println(Arrays.toString(increment(num)));
     }
-    static int[] increment(int[] arr){
-        int last = arr[arr.length-1] = arr[arr.length-1] + 1;
-        if(last>9){
-            int num1 = last%10;
+    static int[] increment(int[] arr) {
+        for (int i = arr.length - 1; i >= 0; i--) {
+            if (arr[i] < 9) {
+                arr[i]++;      // no carry needed
+                return arr;
+            }
+            arr[i] = 0;        // set to 0 and carry continues
         }
-        return arr;
+
+        // if all digits were 9 → need new array
+        int[] result = new int[arr.length + 1];
+        result[0] = 1;
+        return result;
     }
 }
