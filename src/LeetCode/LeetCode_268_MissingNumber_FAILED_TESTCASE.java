@@ -20,7 +20,7 @@ Use Testcase :
 
 */
 
-public class LeetCode_268_MissingNumber {
+public class LeetCode_268_MissingNumber_FAILED_TESTCASE {
     public static void main(String[] args) {
         int[] arr = {1};
         System.out.println(missingNumber(arr));
