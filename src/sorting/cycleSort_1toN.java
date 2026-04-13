@@ -2,7 +2,7 @@ package sorting;
 
 import java.util.Arrays;
 
-public class cycleSort {
+public class cycleSort_1toN {
     public static void main(String[] args) {
         int[] nums = {3,5,2,1,4};
         System.out.println(Arrays.toString(sort(nums)));
@@ -29,3 +29,4 @@ public class cycleSort {
         arr[j] = temp;
     }
 }
+
