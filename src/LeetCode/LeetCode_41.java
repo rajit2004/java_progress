@@ -2,7 +2,8 @@ package LeetCode;
 
 public class LeetCode_41 {
     public static void main(String[] args) {
-
+        int[] num = {1,2,0};
+        System.out.println(firstMissingPositive(num));
     }
 
     static int firstMissingPositive(int[] nums) {
