@@ -7,7 +7,7 @@ Given an array nums of n integers where nums[i] is in the range [1, n],
 
 import java.util.Arrays;
 
-public class LeetCode_448_FindAllNumsDisappearedFromArray {
+public class LeetCode_448_FindAllNumsDisappearedFromArray_UsingArrays {
     public static void main(String[] args) {
         int[] nums = {4,3,2,7,8,2,3,1};
         System.out.println(Arrays.toString(findMissing(nums)));
