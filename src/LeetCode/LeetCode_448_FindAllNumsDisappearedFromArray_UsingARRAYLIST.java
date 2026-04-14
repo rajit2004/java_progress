@@ -32,9 +32,9 @@ public class LeetCode_448_FindAllNumsDisappearedFromArray_UsingARRAYLIST {
         // find and store missing elements using ArrayList
         List<Integer> ans = new ArrayList<>();
 
-        for (int j = 0; j < arr.length; j++) {
-            if (arr[j] != j + 1) {          // finding missing elements
-                ans.add(j + 1);             // storing missing elements
+        for (int j = 0; j < arr.length; j++) {      // traverse over the array
+            if (arr[j] != j + 1) {                  // finding missing elements
+                ans.add(j + 1);                     // storing missing elements
             }
         }
 
