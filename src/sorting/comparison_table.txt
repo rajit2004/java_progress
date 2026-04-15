@@ -1,9 +1,0 @@
-| Feature    | Bubble Sort            | Selection Sort           | Insertion Sort               |
-| ---------- | ---------------------- | ------------------------ | ---------------------------- |
-| Idea       | Swap adjacent elements | Select min/max and place | Insert into sorted part      |
-| Approach   | Repeated swapping      | Selection + swap         | Shifting + insert            |
-| Stable     | ✅ Yes                 | ❌ No                    | ✅ Yes                       |
-| Best Case  | O(n) *(optimized)*     | O(n²)                    | O(n)                         |
-| Worst Case | O(n²)                  | O(n²)                    | O(n²)                        |
-| Swaps      | Many                   | Very few                 | Minimal (shifts)             |
-| Use Case   | Rarely used            | When swaps are costly    | Small / nearly sorted arrays |

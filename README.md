@@ -11,9 +11,9 @@ This repository tracks my journey of learning **Java, Data Structures & Algorith
 ## 📌 About
 
 This repo contains:
-- Java basics
+- Java Basics
 - Problem solving programs
-- Practice questions
+- Practice Questions
 - DSA concepts (upcoming)
 
 Inspired by the structure of the original bootcamp repository, which provides code samples, assignments, and notes for Java DSA and interview preparation. :contentReference[oaicite:0]{index=0}
