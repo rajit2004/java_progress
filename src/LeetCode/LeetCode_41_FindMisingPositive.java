@@ -2,7 +2,7 @@ package LeetCode;
 
 // Given an unsorted integer array nums. Return the smallest positive integer that is not present in nums
 
-public class LeetCode_41FindMisingPositive {
+public class LeetCode_41_FindMisingPositive {
     public static void main(String[] args) {
         int[] num = {1,2,0};
         System.out.println(firstMissingPositive(num));
