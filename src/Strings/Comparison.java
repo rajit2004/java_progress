@@ -9,10 +9,11 @@ public class Comparison {
 
         String a = "Apple";
         String b = "Apple";
-        System.out.println(a == b);         // checks whether a & b points to the same reference
+        System.out.println(a == b);         // checks whether a & b points to the same memory
 
         String c = new String("Apple");         // we explicitly create a new reference variable with the same value of object
-        System.out.println(a == c);         // now when we check whether a & c points to the same reference it returns false even if they have same value
+        System.out.println(c == a);         // now when we check whether a & c points to the same reference it returns false even if they have same value
+        System.out.println(c == b);         // now when we check whether a & c points to the same reference it returns false even if they have same value
 
         System.out.println(a.equals(b));        // .equals() check the value at the reference variable if it is same no matter the memory address
         System.out.println(a.equals(c));        // .equals() check the value at the reference variable if it is same no matter the memory address
