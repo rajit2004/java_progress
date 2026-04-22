@@ -15,5 +15,16 @@ public class Basics {
     Variable fruit is mutable → it can point to a different string
     */
 
+        // accessing the single char of string :
+        String s = "Guitar";
+        System.out.println(s.charAt(4));
+
+//        converting a string into an array of characters
+        for(char ele : s.toCharArray()){
+//            System.out.print(ele + " ");
+            if(ele == 't')
+                System.out.println("found");
+        }
+
     }
 }
