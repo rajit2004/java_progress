@@ -62,9 +62,9 @@ Inspired by the structure of the original bootcamp repository, which provides co
 - [x] Loops
 - [x] Functions
 - [x] Number Problems
-- [ ] Arrays
-- [ ] Searching
-- [ ] Sorting
+- [x] Arrays
+- [x] Searching
+- [x] Sorting
 - [ ] Recursion
 - [ ] DSA
 
