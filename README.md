@@ -1,88 +1,94 @@
 # Java + DSA Progress 🚀
+> Learning Data Structures & Algorithms in Java — completely in the open.
 
-Inspired by [Kunal Kushwaha](https://github.com/kunal-kushwaha) and his DSA Bootcamp.
-
----
-
-This repository tracks my journey of learning **Java, Data Structures & Algorithms**, following the bootcamp by Kunal Kushwaha.
-
----
-
-## 📌 About
-
-This repo contains:
-- Java Basics
-- Problem solving programs
-- Practice Questions
-- DSA concepts (upcoming)
-
-Inspired by the structure of the original bootcamp repository, which provides code samples, assignments, and notes for Java DSA and interview preparation. :contentReference[oaicite:0]{index=0}
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/rajit2004?style=flat&logo=githubsponsors&color=EA4AAA)](https://github.com/sponsors/rajit2004)
+[![Stars](https://img.shields.io/github/stars/rajit2004/java_progress?style=flat)](https://github.com/rajit2004/java_progress/stargazers)
+![Java](https://img.shields.io/badge/Language-Java-orange?style=flat&logo=java)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat)
 
 ---
 
+## 👋 What is this?
+
+I'm **Ranesh Rajit**, a B.Tech CS student from India, learning Java and DSA from scratch — the hard way, problem by problem.
+
+Every concept I study and every problem I solve goes into this repo so that **other students on the same journey can learn alongside me for free.**
+
+Inspired by [Kunal Kushwaha's DSA Bootcamp](https://github.com/kunal-kushwaha/DSA-Bootcamp-Java).
+
+---
+
+## 📈 Progress Tracker
+
+| Topic | Status | Problems Solved |
+|---|---|---|
+| Java Basics | ✅ Done | 4 |
+| Arrays & ArrayList | ✅ Done | 17 |
+| Searching & Sorting | ✅ Done | 25 |
+| Recursion | 🔄 In Progress | — |
+| Linked Lists | 🔜 Up Next | — |
+| Trees | 🔜 Upcoming | — |
+| Graphs | 🔜 Upcoming | — |
+| Dynamic Programming | 🔜 Upcoming | — |
+
+**Total problems solved: 46+**
 
 ---
 
 ## 🧠 Topics Covered
 
 - ✅ Java Basics (syntax, input/output, data types)
-- ✅ Conditional Statements
-- ✅ Loops & Iteration
-- ✅ Functions / Methods
+- ✅ Conditional Statements & Loops
+- ✅ Functions & Methods
 - ✅ Number-based problems (Prime, Armstrong, etc.)
 - ✅ Arrays & ArrayList
 - ✅ Searching & Sorting
-- 🔜 Recursion & Backtracking
-- 🔜 DSA (Linked List, Trees, Graphs, etc.)
+- 🔄 Recursion & Backtracking *(in progress)*
+- 🔜 Linked Lists, Trees, Graphs, Dynamic Programming
 
 ---
 
-## 🎯 Goal
+## 📁 Repository Structure
 
-- Build strong problem-solving skills  
-- Master Data Structures & Algorithms  
-- Prepare for coding interviews  
-
----
-
-## 📚 Resources
-
-- 📺 DSA Bootcamp Playlist  
-  https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ  
-
-- 💻 Original Repository  
-  https://github.com/kunal-kushwaha/DSA-Bootcamp-Java  
+```
+src/
+├── basics/          # Java fundamentals
+├── arrays/          # Array problems & concepts
+├── searching/       # Linear & Binary Search
+├── sorting/         # Bubble, Selection, Insertion, Merge, Quick
+└── recursion/       # Recursion problems (in progress)
+```
 
 ---
 
-## 📈 Progress Tracker
+## 📚 Resources I'm Using
 
-- [x] Basics
-- [x] Conditionals
-- [x] Loops
-- [x] Functions
-- [x] Number Problems
-- [x] Arrays
-- [x] Searching
-- [x] Sorting
-- [ ] Recursion
-- [ ] DSA
+- 📺 [Kunal Kushwaha's DSA Bootcamp Playlist](https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ)
+- 💻 [Original Bootcamp Repository](https://github.com/kunal-kushwaha/DSA-Bootcamp-Java)
+- 🧩 [My LeetCode Profile](https://leetcode.com/rajit2004)
 
 ---
 
-## ⚡ How to Use
+## 💖 Sponsors
 
-Each folder contains:
-- Practice programs
-- Concept-based code
-- Problem-solving approaches
+This repo is free for everyone — no paywalls, no paid courses. If it's helped you or you want to support the journey:
 
----
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/rajit2004)
 
-## 🏁 Note
-
-This is a **learning repository** — code may evolve as I improve.
+### 🙏 Thank you to my supporters
+*Your name could be here! [Become a sponsor →](https://github.com/sponsors/rajit2004)*
 
 ---
 
-⭐ Star this repo if you're also on the same journey!
+## 🎯 Milestones
+
+- [ ] 50 Problems Solved
+- [ ] 100 Problems Solved
+- [ ] Complete Recursion Module
+- [ ] Complete Linked Lists Module
+- [ ] 200 Problems Solved
+- [ ] Publish Free DSA Notes
+
+---
+
+⭐ **Star this repo if you're on the same journey — it keeps me going!**
