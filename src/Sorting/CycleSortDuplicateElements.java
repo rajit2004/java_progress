@@ -6,7 +6,7 @@ import java.util.Arrays;
 // there is no other specific technique for completely sorting array with duplicate entries using cycle sort
 public class CycleSortDuplicateElements {
     public static void main(String[] args) {
-        int[] arr = {4,3,2,7,8,2,3,1};
+        int[] arr = {2,0,2,1,1,0};
         System.out.println(Arrays.toString(cyclicSort(arr)));
     }
 
