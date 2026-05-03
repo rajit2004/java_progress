@@ -24,3 +24,13 @@ public class LeetCode_796_RotateString {
         return combined.contains(goal);
     }
 }
+/*
+
+s = "abcde"
+goal = "cdeab"
+
+combined = "abcdeabcde"
+
+Does combined contain "cdeab"? → YES
+
+*/
