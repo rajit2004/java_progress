@@ -1,0 +1,28 @@
+class Solution {
+    public boolean isGood(int[] nums) {
+
+        int n = nums.length - 1;
+
+        // frequency array
+        int[] freq = new int[201];
+
+        // count occurrences
+        for (int num : nums) {
+            freq[num]++;
+        }
+
+        // n should appear exactly twice
+        if (freq[n] != 2) {
+            return false;
+        }
+
+        // numbers 1 to n-1 should appear once
+        for (int i = 1; i < n; i++) {
+            if (freq[i] != 1) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+}
