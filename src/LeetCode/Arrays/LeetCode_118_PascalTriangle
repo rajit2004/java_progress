@@ -1,0 +1,37 @@
+import java.util.*;
+
+class Solution {
+    public List<List<Integer>> generate(int numRows) {
+
+        List<List<Integer>> result = new ArrayList<>();
+
+        // Create each row
+        for (int i = 0; i < numRows; i++) {
+
+            List<Integer> row = new ArrayList<>();
+
+            // Every row starts and ends with 1
+            for (int j = 0; j <= i; j++) {
+
+                // First or last position
+                if (j == 0 || j == i) {
+                    row.add(1);
+                } else {
+
+                    // Get previous row
+                    List<Integer> prevRow = result.get(i - 1);
+
+                    // Add two numbers from previous row
+                    int value = prevRow.get(j - 1) + prevRow.get(j);
+
+                    row.add(value);
+                }
+            }
+
+            // Add completed row to result
+            result.add(row);
+        }
+
+        return result;
+    }
+}
