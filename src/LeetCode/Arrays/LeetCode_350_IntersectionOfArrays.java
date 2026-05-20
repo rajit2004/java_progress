@@ -1,7 +1,22 @@
-import java.util.*;
+package LeetCode.Arrays;
 
-class Solution {
-    public int[] intersect(int[] nums1, int[] nums2) {
+/*
+Given two integer arrays nums1 and nums2, return an array of their intersection.
+Each element in the result must appear as many times as it shows in both arrays and
+you may return the result in any order.
+*/
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Arrays;
+
+public class LeetCode_350_IntersectionOfArrays {
+    public static void main(String[] args) {
+        int[] num1 = {1,2,2,1};
+        int[] num2 = {2,2};
+        System.out.println(Arrays.toString(intersect(num1, num2)));
+    }
+    static int[] intersect(int[] nums1, int[] nums2) {
 
         // Sort both arrays
         Arrays.sort(nums1);
