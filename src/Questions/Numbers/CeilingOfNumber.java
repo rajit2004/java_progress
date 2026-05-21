@@ -1,4 +1,4 @@
-package Questions;
+package Questions.Numbers;
 
 public class CeilingOfNumber {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Questions;
+package Questions.Arrays;
 
 public class FindRotationCountInRotatedSortedArray {
     public static void main(String[] args) {

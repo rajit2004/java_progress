@@ -1,4 +1,4 @@
-package Questions;
+package Questions.Arrays;
 
 //amazon question -> Find position of an element in a sorted array of infinite numbers.
 

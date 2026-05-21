@@ -1,4 +1,4 @@
-package Questions;
+package Questions.Arrays;
 
 public class FindPivotWithDuplicateElementsInRotatedArray {
     public static void main(String[] args) {
