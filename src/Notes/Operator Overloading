@@ -1,0 +1,5 @@
+in java + is the only operator which is intentionally overloaded to support string concatenation otherwise in java
+there is no such concept of operator overloading as in c++ or python where we can change the behaviour of the operators
+by overloading them .
+
++ only works on string joining . in case of complex objects at least one has to be a string.

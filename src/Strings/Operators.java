@@ -27,5 +27,9 @@ public class Operators {
 //      But we can type cast the above result to a string and print
         String ans = new ArrayList<Integer>() + " " + new Integer(25);           // adding " " is important or else the + operator won't work
         System.out.println(ans);
+
+        String q = "Apple";
+        int num = 5;
+        System.out.println(q+num);
     }
 }
