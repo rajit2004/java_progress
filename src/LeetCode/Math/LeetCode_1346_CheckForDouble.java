@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Math;
 
 public class LeetCode_1346_CheckForDouble {
     public static void main(String[] args) {

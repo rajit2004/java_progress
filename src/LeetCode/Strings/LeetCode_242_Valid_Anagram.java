@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Strings;
 
 public class LeetCode_242_Valid_Anagram {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Arrays;
 
 /*
 The intuition behind this approach is that if an element occurs more than n/2 times in the array

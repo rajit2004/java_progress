@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Math;
 
 public class LeetCode_263_ALTERNATIVE {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Arrays;
 
 /*
 Given an integer array nums and an integer k, split nums into k non-empty subarrays

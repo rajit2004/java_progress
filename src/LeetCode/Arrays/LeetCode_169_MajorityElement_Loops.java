@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Arrays;
 
 // simple linear search and count
 

@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Strings;
 
 public class LeetCode_205_Isomorphic_String {
     public static void main(String[] args) {

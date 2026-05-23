@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.BinarySearch;
 
 public class LeetCode_33_SearchInRotatedSortedArraySelfOptimized {
     public static void main(String[] args) {

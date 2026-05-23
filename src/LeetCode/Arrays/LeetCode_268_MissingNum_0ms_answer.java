@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Arrays;
 
 /*
 Intuition : Given nums from 0 to n

@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Strings;
 
 public class LeetCode_28_FindFirstOccurrenceInString_BruteForce {
     public static void main(String[] args) {

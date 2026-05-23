@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.BinarySearch;
 
 /*
 Given a sorted array of distinct integers and a target value,

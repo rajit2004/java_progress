@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Misc;
 
 public class LeetCode_1672_RichestCustomerWealth {
     public static void main(String[] args) {

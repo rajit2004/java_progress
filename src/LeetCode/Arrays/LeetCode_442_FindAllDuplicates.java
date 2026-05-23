@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Arrays;
 
 /*
 Given an integer array nums of length n where all the integers of nums are in the range [1, n]

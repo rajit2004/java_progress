@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.BinarySearch;
 
 public class LeetCode_154_MinInRotatedSortedArrayWithDUPLICATES {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.BinarySearch;
 
 /*
 Given the array nums after the rotation and an integer target

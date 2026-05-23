@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.BinarySearch;
 
 //https://leetcode.com/problems/peak-index-in-a-mountain-array/description/
 

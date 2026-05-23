@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Arrays;
 
 public class LeetCode_217_ContainsDuplicate {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Arrays;
 
 public class LeetCode_268_MissingNumber_SOLVED {
     public static void main(String[] args) {

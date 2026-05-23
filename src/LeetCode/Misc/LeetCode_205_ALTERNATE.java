@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Misc;
 
 public class LeetCode_205_ALTERNATE {
     public static void main(String[] args) {

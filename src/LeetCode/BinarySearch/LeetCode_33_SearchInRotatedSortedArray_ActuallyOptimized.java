@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.BinarySearch;
 
 public class LeetCode_33_SearchInRotatedSortedArray_ActuallyOptimized {
 

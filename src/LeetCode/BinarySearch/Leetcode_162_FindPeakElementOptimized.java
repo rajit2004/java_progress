@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.BinarySearch;
 
 //https://leetcode.com/problems/find-peak-element/description/
 

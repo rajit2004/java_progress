@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.BinarySearch;
 
 // same as the ceiling of the number question . uses same concept
 
