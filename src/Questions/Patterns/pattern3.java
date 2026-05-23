@@ -1,20 +1,18 @@
 package Questions.Patterns;
 
 /*
+ *****
+ ****
+ ***
+ **
+ *
+*/
 
-*****
-*****
-*****
-*****
-*****
-
-* */
-
-public class pattern1 {
+public class pattern3 {
     public static void main(String[] args) {
-        for (int i = 0; i < 5; i++) {
-            int j = 5;
-            while(j!=0){
+        for(int i = 5 ; i!= 0 ; i--){
+            int j = i;
+            while(j != 0){
                 System.out.print("*");
                 j--;
             }
