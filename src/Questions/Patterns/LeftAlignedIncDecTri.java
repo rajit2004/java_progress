@@ -12,7 +12,7 @@ package Questions.Patterns;
  *
 */
 
-public class pattern5 {
+public class LeftAlignedIncDecTri {
     public static void main(String[] args) {
         int n = 5;
         pattern(5);
