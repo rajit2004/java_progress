@@ -1,0 +1,93 @@
+# .github/workflows/update_dsa.yml
+# Placed in: java_progress/.github/workflows/update_dsa.yml
+#
+# Triggers on every push to main.
+# 1. Runs update_readme.py → updates java_progress README
+# 2. Uses PAT to clone profile repo and update that README too.
+
+name: Update DSA Progress Table
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "JAVA/LeetCode/**"   # only trigger when a LeetCode solution is pushed
+
+  workflow_dispatch:          # allow manual trigger from GitHub Actions tab
+
+jobs:
+  update-readmes:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── 1. Checkout java_progress ──────────────────────────
+      - name: Checkout java_progress
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          fetch-depth: 0
+
+      # ── 2. Set up Python ───────────────────────────────────
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      # ── 3. Run the update script ───────────────────────────
+      - name: Update java_progress README
+        run: python .github/update_readme.py
+
+      # ── 4. Commit changes to java_progress ────────────────
+      - name: Commit java_progress README
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "📊 Auto-update DSA progress table"
+          git push
+
+      # ── 5. Checkout profile repo (rajit2004/rajit2004) ────
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+        with:
+          repository: rajit2004/rajit2004
+          token: ${{ secrets.PAT_TOKEN }}
+          path: profile-repo
+
+      # ── 6. Update profile README using the generated section
+      - name: Update profile README
+        run: |
+          python - << 'EOF'
+          import re, os
+
+          # Read the generated DSA section
+          with open(".github/dsa_section.md", "r", encoding="utf-8") as f:
+              new_section = f.read()
+
+          profile_readme = "profile-repo/README.md"
+          with open(profile_readme, "r", encoding="utf-8") as f:
+              content = f.read()
+
+          pattern = r"(## 📈 DSA Progress.*?---\s*)"
+          updated, n = re.subn(pattern, new_section + "\n", content, flags=re.DOTALL)
+
+          if n == 0:
+              print("[!] Pattern not found in profile README")
+          else:
+              with open(profile_readme, "w", encoding="utf-8") as f:
+                  f.write(updated)
+              print("[+] Profile README updated.")
+          EOF
+
+      # ── 7. Commit + push profile README ───────────────────
+      - name: Commit profile README
+        working-directory: profile-repo
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "📊 Auto-update DSA progress table from java_progress"
+          git push
