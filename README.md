@@ -53,7 +53,7 @@ Inspired by [Kunal Kushwaha's DSA Bootcamp](https://github.com/kunal-kushwaha/DS
 
 ```
 java_progress/
-└── JAVA/
+└── src/
     ├── Basics/              # Java fundamentals — data types, I/O, operators, type casting
     ├── Conditionals/        # If-else, switch, nested conditions
     ├── Loops/               # Loop patterns and practice
