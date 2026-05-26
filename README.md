@@ -52,12 +52,28 @@ Inspired by [Kunal Kushwaha's DSA Bootcamp](https://github.com/kunal-kushwaha/DS
 ## 📁 Repository Structure
 
 ```
-src/
-├── basics/          # Java fundamentals
-├── arrays/          # Array problems & concepts
-├── searching/       # Linear & Binary Search
-├── sorting/         # Bubble, Selection, Insertion, Merge, Quick
-└── recursion/       # Recursion problems (in progress)
+java_progress/
+└── JAVA/
+    ├── Basics/              # Java fundamentals — data types, I/O, operators, type casting
+    ├── Conditionals/        # If-else, switch, nested conditions
+    ├── Loops/               # Loop patterns and practice
+    ├── Methods/             # Functions, overloading, recursion, varargs
+    ├── Arrays/              # Array & ArrayList operations, 2D arrays, passing in functions
+    ├── Strings/             # String methods, builders, palindrome, comparisons
+    ├── Numbers/             # Armstrong, Fibonacci, prime, number reversal
+    ├── Searching/           # Linear search, Binary search (ascending/descending/2D/order-agnostic)
+    ├── Sorting/             # Bubble, Selection, Insertion, Cycle sort with optimisations
+    ├── Questions/           # Practice questions — Arrays, Numbers, Patterns, Recursion
+    ├── Notes/               # Operator overloading notes
+    └── LeetCode/
+        ├── Arrays/          # 34 problems — Two Sum, Missing Number, Pascal's Triangle…
+        ├── BinarySearch/    # 20 problems — Rotated arrays, peak finding, mountain array…
+        ├── Strings/         # 27 problems — Anagram, palindrome, sliding window…
+        ├── TwoPointers/     # 7 problems — Valid Palindrome, Move Zeroes, Happy Number…
+        ├── Sorting/         # 3 problems — Sort Colors, Largest Number…
+        ├── BitManipulation/ # 2 problems — Reverse Bits, Number of 1 Bits
+        ├── Math/            # 12 problems — Power of Two, Ugly Number, Fizz Buzz…
+        └── Misc/            # 4 problems — Isomorphic Strings, Richest Customer Wealth…
 ```
 
 ---
