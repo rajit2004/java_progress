@@ -19,14 +19,14 @@ Inspired by [Kunal Kushwaha's DSA Bootcamp](https://github.com/kunal-kushwaha/DS
 ---
 ## 📈 DSA Progress
 
-| Topic | Status | Problems Solved |
-|---|---|---|
-| Java Basics | ✅ Done | 4 |
-| Recursion | 🔄 In Progress | — |
-| Linked Lists | 🔜 Up Next | — |
-| Trees | 🔜 Upcoming | — |
-| Graphs | 🔜 Upcoming | — |
-| Dynamic Programming | 🔜 Upcoming | — |
+| Topic                | Status         | Problems Solved |
+| -------------------- | -------------- | --------------- |
+| Java Basics          | ✅ Done         | 4               |
+| Recursion            | 🔄 In Progress  | —               |
+| Linked Lists         | 🔜 Up Next      | —               |
+| Trees                | 🔜 Upcoming     | —               |
+| Graphs               | 🔜 Upcoming     | —               |
+| Dynamic Programming  | 🔜 Upcoming     | —               |
 
 **Total: 82 problems solved · Easy 62 · Med 15 · Hard 5**
 
@@ -43,21 +43,6 @@ Inspired by [Kunal Kushwaha's DSA Bootcamp](https://github.com/kunal-kushwaha/DS
 - [ ] 300 Problems Solved
 - [ ] 500 Problems Solved
 
----
-|---|---|
-| Java Basics | ✅ Done | 4 |
-| Arrays & ArrayList | ✅ Done | 24 |
-| Strings | ✅ Done | 24 |
-| Searching & Sorting | ✅ Done | 22 |
-| Binary Search | ✅ Done | 20 |
-| Bit Manipulation | ✅ Done | 3 |
-| Recursion | 🔄 In Progress | — |
-| Linked Lists | 🔜 Up Next | — |
-| Trees | 🔜 Upcoming | — |
-| Graphs | 🔜 Upcoming | — |
-| Dynamic Programming | 🔜 Upcoming | — |
-
-**Total: 81 problems solved · Easy 61 · Med 15 · Hard 5**
 ---
 
 ## 🧠 Topics Covered
