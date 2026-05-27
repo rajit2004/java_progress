@@ -17,18 +17,22 @@ Every concept I study and every problem I solve goes into this repo so that **ot
 Inspired by [Kunal Kushwaha's DSA Bootcamp](https://github.com/kunal-kushwaha/DSA-Bootcamp-Java).
 
 ---
+
 ## 📈 DSA Progress
 
-| Topic                | Status         | Problems Solved |
-| -------------------- | -------------- | --------------- |
-| Java Basics          | ✅ Done         | 4               |
-| Recursion            | 🔄 In Progress  | —               |
-| Linked Lists         | 🔜 Up Next      | —               |
-| Trees                | 🔜 Upcoming     | —               |
-| Graphs               | 🔜 Upcoming     | —               |
-| Dynamic Programming  | 🔜 Upcoming     | —               |
-
-**Total: 82 problems solved · Easy 62 · Med 15 · Hard 5**
+| Topic | Status | Problems Solved |
+|---|---|---|
+| Java Basics | ✅ Done | 4 |
+| Arrays & ArrayList | ✅ Done | 24 |
+| Strings | ✅ Done | 25 |
+| Searching & Sorting | ✅ Done | 22 |
+| Binary Search | ✅ Done | 20 |
+| Bit Manipulation | ✅ Done | 3 |
+| Recursion | 🔄 In Progress | — |
+| Linked Lists | 🔜 Up Next | — |
+| Trees | 🔜 Upcoming | — |
+| Graphs | 🔜 Upcoming | — |
+| Dynamic Programming | 🔜 Upcoming | — |
 
 ---
 
