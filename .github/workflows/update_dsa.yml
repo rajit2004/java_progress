@@ -50,6 +50,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
           git diff --staged --quiet || git commit -m "📊 Auto-update DSA progress table"
+          git pull --rebase origin main
           git push
 
       # ── 5. Checkout profile repo (rajit2004/rajit2004) ────
@@ -93,4 +94,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
           git diff --staged --quiet || git commit -m "📊 Auto-update DSA progress table from java_progress"
+          git pull --rebase origin main
           git push
