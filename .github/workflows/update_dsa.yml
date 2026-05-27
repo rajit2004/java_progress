@@ -53,8 +53,9 @@ jobs:
             exit 0
           fi
           git commit -m "📊 Auto-update DSA progress table"
-          git pull --rebase origin main
-          git push
+          git fetch origin main
+          git rebase origin/main
+          git push --force-with-lease origin main
 
       # ── 5. Checkout profile repo (rajit2004/rajit2004) ─────
       - name: Checkout profile repo
@@ -100,5 +101,6 @@ jobs:
             exit 0
           fi
           git commit -m "📊 Auto-update DSA progress table from java_progress"
-          git pull --rebase origin main
-          git push
+          git fetch origin main
+          git rebase origin/main
+          git push --force-with-lease origin main
