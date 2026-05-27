@@ -11,7 +11,6 @@ on:
 permissions:
   contents: write
 
-# ✅ KEY FIX: Only one run at a time — new runs wait, not cancel
 concurrency:
   group: update-dsa-progress
   cancel-in-progress: false
@@ -48,13 +47,13 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
           git add README.md
           if git diff --staged --quiet; then
-            echo "No changes to commit, skipping."
+            echo "✅ No changes to commit, skipping."
             exit 0
           fi
           git commit -m "📊 Auto-update DSA progress table"
+          git pull --rebase origin main
           git push
 
       # ── 5. Checkout profile repo (rajit2004/rajit2004) ─────
@@ -69,7 +68,7 @@ jobs:
       - name: Update profile README
         run: |
           python - << 'EOF'
-          import re, os
+          import re
 
           with open(".github/dsa_section.md", "r", encoding="utf-8") as f:
               new_section = f.read()
@@ -95,11 +94,11 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
           git add README.md
           if git diff --staged --quiet; then
-            echo "No changes to commit, skipping."
+            echo "✅ No changes to commit, skipping."
             exit 0
           fi
           git commit -m "📊 Auto-update DSA progress table from java_progress"
+          git pull --rebase origin main
           git push
