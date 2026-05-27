@@ -15,6 +15,9 @@ on:
 
   workflow_dispatch:          # allow manual trigger from GitHub Actions tab
 
+permissions:
+  contents: write
+
 jobs:
   update-readmes:
     runs-on: ubuntu-latest
