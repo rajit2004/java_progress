@@ -1,18 +1,12 @@
 # .github/workflows/update_dsa.yml
-# Placed in: java_progress/.github/workflows/update_dsa.yml
-#
-# Triggers on every push to main.
-# 1. Runs update_readme.py → updates java_progress README
-# 2. Uses PAT to clone profile repo and update that README too.
-
 name: Update DSA Progress Table
 
 on:
   push:
     branches: [main]
     paths:
-      - "JAVA/LeetCode/**"   # only trigger when a LeetCode solution is pushed
-  workflow_dispatch:          # allow manual trigger from GitHub Actions tab
+      - "JAVA/LeetCode/**"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -21,7 +15,7 @@ jobs:
   update-readmes:
     runs-on: ubuntu-latest
     env:
-      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true  # suppress Node.js 20 deprecation warning
+      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 
     steps:
       # ── 1. Checkout java_progress ──────────────────────────
@@ -44,17 +38,23 @@ jobs:
       - name: Update java_progress README
         run: python .github/update_readme.py
 
-      # ── 4. Commit changes to java_progress ────────────────
+      # ── 4. Commit + push java_progress README (with retry) ─
       - name: Commit java_progress README
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin main
           git add README.md
-          git diff --staged --quiet || git commit -m "📊 Auto-update DSA progress table"
-          git push
+          git diff --staged --quiet && echo "No changes to commit" && exit 0
+          git commit -m "📊 Auto-update DSA progress table"
+          for i in 1 2 3 4 5; do
+            echo "Push attempt $i..."
+            git pull --rebase origin main && git push && echo "Push succeeded!" && break
+            echo "Push failed, retrying in 5s..."
+            sleep 5
+          done
 
-      # ── 5. Checkout profile repo (rajit2004/rajit2004) ────
+      # ── 5. Checkout profile repo (rajit2004/rajit2004) ─────
       - name: Checkout profile repo
         uses: actions/checkout@v4
         with:
@@ -62,13 +62,12 @@ jobs:
           token: ${{ secrets.PAT_TOKEN }}
           path: profile-repo
 
-      # ── 6. Update profile README using the generated section ──
+      # ── 6. Update profile README ───────────────────────────
       - name: Update profile README
         run: |
           python - << 'EOF'
           import re, os
 
-          # Read the generated DSA section
           with open(".github/dsa_section.md", "r", encoding="utf-8") as f:
               new_section = f.read()
 
@@ -87,7 +86,7 @@ jobs:
               print("[+] Profile README updated.")
           EOF
 
-      # ── 7. Commit + push profile README ───────────────────
+      # ── 7. Commit + push profile README (with retry) ───────
       - name: Commit profile README
         working-directory: profile-repo
         run: |
@@ -95,5 +94,11 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin main
           git add README.md
-          git diff --staged --quiet || git commit -m "📊 Auto-update DSA progress table from java_progress"
-          git push
+          git diff --staged --quiet && echo "No changes to commit" && exit 0
+          git commit -m "📊 Auto-update DSA progress table from java_progress"
+          for i in 1 2 3 4 5; do
+            echo "Push attempt $i..."
+            git pull --rebase origin main && git push && echo "Push succeeded!" && break
+            echo "Push failed, retrying in 5s..."
+            sleep 5
+          done
