@@ -22,6 +22,30 @@ Inspired by [Kunal Kushwaha's DSA Bootcamp](https://github.com/kunal-kushwaha/DS
 | Topic | Status | Problems Solved |
 |---|---|---|
 | Java Basics | ✅ Done | 4 |
+| Recursion | 🔄 In Progress | — |
+| Linked Lists | 🔜 Up Next | — |
+| Trees | 🔜 Upcoming | — |
+| Graphs | 🔜 Upcoming | — |
+| Dynamic Programming | 🔜 Upcoming | — |
+
+**Total: 82 problems solved · Easy 62 · Med 15 · Hard 5**
+
+---
+
+## 🎯 DSA Milestones
+
+- [x] 10 Problems Solved
+- [x] 25 Problems Solved
+- [x] 50 Problems Solved
+- [x] 75 Problems Solved
+- [ ] 100 Problems Solved
+- [ ] 200 Problems Solved
+- [ ] 300 Problems Solved
+- [ ] 500 Problems Solved
+
+---
+|---|---|
+| Java Basics | ✅ Done | 4 |
 | Arrays & ArrayList | ✅ Done | 24 |
 | Strings | ✅ Done | 24 |
 | Searching & Sorting | ✅ Done | 22 |
