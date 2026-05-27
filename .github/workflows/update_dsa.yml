@@ -11,6 +11,11 @@ on:
 permissions:
   contents: write
 
+# ✅ KEY FIX: Only one run at a time — new runs wait, not cancel
+concurrency:
+  group: update-dsa-progress
+  cancel-in-progress: false
+
 jobs:
   update-readmes:
     runs-on: ubuntu-latest
@@ -38,40 +43,19 @@ jobs:
       - name: Update java_progress README
         run: python .github/update_readme.py
 
-      # ── 4. Commit + push java_progress README (with retry) ─
+      # ── 4. Commit + push java_progress README ──────────────
       - name: Commit java_progress README
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin main
           git add README.md
-
           if git diff --staged --quiet; then
             echo "No changes to commit, skipping."
             exit 0
           fi
-
           git commit -m "📊 Auto-update DSA progress table"
-
-          set +e  # ← disable exit-on-error so the loop can retry
-          PUSHED=false
-          for i in 1 2 3 4 5; do
-            echo "Push attempt $i of 5..."
-            git pull --rebase origin main
-            if git push; then
-              echo "✅ Push succeeded on attempt $i!"
-              PUSHED=true
-              break
-            fi
-            echo "❌ Push failed, waiting 5s before retry..."
-            sleep 5
-          done
-          set -e  # ← re-enable exit-on-error
-
-          if [ "$PUSHED" = false ]; then
-            echo "💀 All push attempts failed."
-            exit 1
-          fi
+          git push
 
       # ── 5. Checkout profile repo (rajit2004/rajit2004) ─────
       - name: Checkout profile repo
@@ -105,7 +89,7 @@ jobs:
               print("[+] Profile README updated.")
           EOF
 
-      # ── 7. Commit + push profile README (with retry) ───────
+      # ── 7. Commit + push profile README ───────────────────
       - name: Commit profile README
         working-directory: profile-repo
         run: |
@@ -113,30 +97,9 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin main
           git add README.md
-
           if git diff --staged --quiet; then
             echo "No changes to commit, skipping."
             exit 0
           fi
-
           git commit -m "📊 Auto-update DSA progress table from java_progress"
-
-          set +e
-          PUSHED=false
-          for i in 1 2 3 4 5; do
-            echo "Push attempt $i of 5..."
-            git pull --rebase origin main
-            if git push; then
-              echo "✅ Push succeeded on attempt $i!"
-              PUSHED=true
-              break
-            fi
-            echo "❌ Push failed, waiting 5s before retry..."
-            sleep 5
-          done
-          set -e
-
-          if [ "$PUSHED" = false ]; then
-            echo "💀 All push attempts failed."
-            exit 1
-          fi
+          git push
