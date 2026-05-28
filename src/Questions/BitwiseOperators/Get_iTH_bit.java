@@ -1,6 +1,6 @@
 package Questions.BitwiseOperators;
 
-public class nthBitOfNum {
+public class Get_iTH_bit {
     public static void main(String[] args) {
         int num = 6467;
         int bit = 2;
