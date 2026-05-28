@@ -1,4 +1,4 @@
-package Numbers;
+package Questions.Numbers;
 
 public class ArmstrongALLin3digs {
     public static void main(String[] args) {

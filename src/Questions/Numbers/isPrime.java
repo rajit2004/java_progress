@@ -1,4 +1,4 @@
-package Numbers;
+package Questions.Numbers;
 
 import java.util.Scanner;
 public class isPrime {

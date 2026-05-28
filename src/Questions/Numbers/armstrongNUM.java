@@ -1,4 +1,4 @@
-package Numbers;
+package Questions.Numbers;
 
 public class armstrongNUM {
     public static void main(String[] args) {

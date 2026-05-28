@@ -16,5 +16,5 @@ Problems and concepts related to Mathematical operations and Number theory.
 | 258. Sum of Digits in Number | Easy | Digit Extraction |
 | 263. Ugly Number | Easy | Division |
 | 367. Valid Perfect Square | Easy | Binary Search |
-| 1295. Numbers With Even Number of Digits | Easy | Digit Count |
+| 1295. Questions.Numbers With Even Number of Digits | Easy | Digit Count |
 | 1346. Check if N and Its Double Exist | Easy | HashMap |
