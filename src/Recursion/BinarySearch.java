@@ -32,16 +32,17 @@ public class BinarySearch {
 //    binary search using recursion
 
     static int bs(int[] arr , int target , int st , int end){
-        while(st <= end){
-            int mid = st + (end - st) / 2;
 
-            if(arr[mid] == target)
-                return mid;
-            if (arr[mid] < target)
-                return bs(arr , target , mid + 1, end);
-            else
-                return bs(arr , target , st ,  mid - 1);
-        }
-        return -1;
+        if (st > end)
+            return -1;
+
+        int mid = st + (end - st) / 2;
+
+        if(arr[mid] == target)
+            return mid;
+        if (arr[mid] < target)
+            return bs(arr , target , mid + 1, end);
+        else
+            return bs(arr , target , st ,  mid - 1);
     }
 }
