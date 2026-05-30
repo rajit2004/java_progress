@@ -1,0 +1,11 @@
+there is a difference btw n-- and --n
+
+                 n--                 |              --n
+                                     |
+        it uses / passes the value   |      it first decrements the value and then uses / passes it in the fn
+        of n in the fn and           |
+        then decrements    its       |
+        value                        |
+                                     |
+                                     |
+                                     |
