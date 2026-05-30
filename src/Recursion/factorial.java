@@ -29,6 +29,7 @@ public class factorial {
             return 1;
         return n * factRec(n-1);
     }
-
-
 }
+
+
+// recursive fn => n! = n * (n-1)!
