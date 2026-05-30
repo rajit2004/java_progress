@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Questions;
 
 public class numsFrom_1toN {
     public static void main(String[] args) {
