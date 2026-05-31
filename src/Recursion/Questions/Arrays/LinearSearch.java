@@ -17,6 +17,8 @@ public class LinearSearch {
     }
 
 //    recursive approach :
+
+//    helper fn finds the index where we find the target
     static boolean helper(int[] arr , int index , int target){
 
 //        base condition :

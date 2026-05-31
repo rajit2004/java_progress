@@ -7,6 +7,7 @@ public class LinearSearchIndexed {
         System.out.println(find(arr , target));
 
     }
+//    helper fn finds the index where we find the target
     static int helper(int[] arr , int target , int index){
 
 //        base condition :
