@@ -2,6 +2,7 @@ package Strings;
 
 public class PalindromeMethod {
     public static void main(String[] args) {
+
         System.out.println(ispalindrome("RaCeCaR"));
     }
     static boolean ispalindrome(String str){
