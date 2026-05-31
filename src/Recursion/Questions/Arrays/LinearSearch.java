@@ -1,24 +1,35 @@
-//package Recursion.Questions.Arrays;
-//
-//public class LinearSearch {
-//    public static void main(String[] args) {
-//        int[] arr = {9,4,7,1,5,23,6};
-//        int target = 71;
-//        System.out.println(search(arr , target));
-//    }
-//
-////    iterative approach :
-//    static boolean search(int[] arr , int target){
-//        for(int ele : arr){
-//            if(ele == target)
-//                return true;
-//        }
-//        return false;
-//    }
-//
-////    recursive approach :
-//    static boolean linsearch(int[] arr , int target){
-//        if(arr[])
-//    }
-//
-//}
+package Recursion.Questions.Arrays;
+
+public class LinearSearch {
+    public static void main(String[] args) {
+        int[] arr = {9,4,7,1,5,23,6};
+        int target = 71;
+        System.out.println(linSearch(arr , target));
+    }
+
+//    iterative approach :
+    static boolean search(int[] arr , int target){
+        for(int ele : arr){
+            if(ele == target)
+                return true;
+        }
+        return false;
+    }
+
+//    recursive approach :
+    static boolean helper(int[] arr , int index , int target){
+
+//        base condition :
+        if(arr[index] == target)
+            return true;            // target found at any index
+        if (index == arr.length-1)
+            return false;           // reached the end of the array but target not found
+
+        return helper(arr , index +1 , target);
+    }
+    static boolean linSearch(int[] arr , int target){
+        if(arr == null || arr.length == 0)
+            return false;
+        return helper(arr , 0 , target);
+    }
+}
