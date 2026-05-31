@@ -19,7 +19,7 @@ public class ReturnMultipleOccurrenceLinearSearch {
         ArrayList<Integer> ans = helper(arr , target , index + 1);
 
         if(arr[index] == target) {
-            ans.add(0,index);
+            ans.addFirst(index);
         }
         return ans;
     }
