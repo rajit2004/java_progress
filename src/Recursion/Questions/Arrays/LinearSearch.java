@@ -2,8 +2,8 @@ package Recursion.Questions.Arrays;
 
 public class LinearSearch {
     public static void main(String[] args) {
-        int[] arr = {9,4,7,1,5,23,6};
-        int target = 71;
+        int[] arr = {1,2,3,4,5,6,7,8,9,4,4};
+        int target = 4;
         System.out.println(linSearch(arr , target));
     }
 
