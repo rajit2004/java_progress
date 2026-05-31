@@ -1,4 +1,4 @@
-package Recursion.Questions;
+package Recursion.Questions.Basics;
 
 public class SumOfN_NaturalNums {
     public static void main(String[] args) {

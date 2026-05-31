@@ -1,4 +1,4 @@
-package Recursion.Questions;
+package Recursion.Questions.Basics;
 
 public class ProductOfDigits {
     public static void main(String[] args) {

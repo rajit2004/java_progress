@@ -1,4 +1,4 @@
-package Recursion.Questions;
+package Recursion.Questions.Basics;
 
 public class ReverseOfNum {
     public static void main(String[] args) {
