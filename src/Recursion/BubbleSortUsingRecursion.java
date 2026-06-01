@@ -1,5 +1,7 @@
 package Recursion;
 
+import java.util.Arrays;
+
 public class BubbleSortUsingRecursion {
     public static void main(String[] args) {
 
@@ -10,11 +12,9 @@ public class BubbleSortUsingRecursion {
         // arr.length - 1 is the last index (index 4 for a 5-element array)
         sort(arr, arr.length - 1);
 
-        // print all numbers after sorting
-        for (int num : arr) {
-            System.out.print(num + " ");
+        System.out.println(Arrays.toString(arr));
         }
-    }
+
 
     // ─────────────────────────────────────────────
     // sort() — the boss function
