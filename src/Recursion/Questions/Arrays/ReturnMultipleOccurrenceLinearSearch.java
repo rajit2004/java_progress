@@ -12,8 +12,8 @@ public class ReturnMultipleOccurrenceLinearSearch {
     static ArrayList<Integer> helper(int[] arr , int target , int index){
 
 //        base condition :
-        if (index == arr.length)
-            return new ArrayList<>();
+        if (index == arr.length)            // we have reached the end of the array but didn't find the target
+            return new ArrayList<>();       // return the empty list
 
 //        we have to store the index wherever we find the target:
         ArrayList<Integer> ans = helper(arr , target , index + 1);
