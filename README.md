@@ -73,10 +73,10 @@ java_progress/
     ├── Methods/             # Functions, overloading, recursion, varargs
     ├── Arrays/              # Array & ArrayList operations, 2D arrays, passing in functions
     ├── Strings/             # String methods, builders, palindrome, comparisons
-    ├── Numbers/             # Armstrong, Fibonacci, prime, number reversal
+    ├── Questions.Numbers/             # Armstrong, Fibonacci, prime, number reversal
     ├── Searching/           # Linear search, Binary search (ascending/descending/2D/order-agnostic)
     ├── Sorting/             # Bubble, Selection, Insertion, Cycle sort with optimisations
-    ├── Questions/           # Practice questions — Arrays, Numbers, Patterns, Recursion
+    ├── Questions/           # Practice questions — Arrays, Questions.Numbers, Patterns, Recursion
     ├── Notes/               # Operator overloading notes
     └── LeetCode/
         ├── Arrays/          # 34 problems — Two Sum, Missing Number, Pascal's Triangle…
