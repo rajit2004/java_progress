@@ -29,21 +29,19 @@ public class LeetCode_3941_PasswordStrength {
 
         String symbols = "!@#$";
         for(int i = 0 ; i < password.length() ; i++) {
-            if (Character.isLowerCase(password.charAt(i)) && !seen.contains(password.charAt(i))){
-                seen.add(password.charAt(i));
-                point += 1;
-        }
-            else if(Character.isUpperCase(password.charAt(i)) && !seen.contains(password.charAt(i))) {
-                seen.add(password.charAt(i));
-                point += 2;
-            }
-            else if(Character.isDigit(password.charAt(i)) && !seen.contains(password.charAt(i))){
-                seen.add(password.charAt(i));
-                point += 3;
-            }
-            else if(symbols.indexOf(password.charAt(i)) >= 0 && !seen.contains(password.charAt(i))) {
-                seen.add(password.charAt(i));
-                point += 5;
+
+            char ch = password.charAt(i);
+
+            if(!seen.contains(ch)) {
+                seen.add(ch);
+                if (Character.isLowerCase(ch))
+                    point += 1;
+                else if (Character.isUpperCase(ch))
+                    point += 2;
+                else if (Character.isDigit(ch))
+                    point += 3;
+                else if (symbols.indexOf(ch) >= 0)
+                    point += 5;
             }
         }
         return point;
