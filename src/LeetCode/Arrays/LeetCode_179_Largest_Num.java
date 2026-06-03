@@ -1,4 +1,4 @@
-package LeetCode.Sorting;
+package LeetCode.Arrays;
 
 /*
 Given a list of non-negative integers nums, arrange them such that they form the largest number and return it.

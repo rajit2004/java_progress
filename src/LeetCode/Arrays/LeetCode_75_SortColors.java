@@ -1,4 +1,4 @@
-package LeetCode.Sorting;
+package LeetCode.Arrays;
 
 /*
 Given an array nums with n objects colored red, white, or blue, sort them in-place
