@@ -67,7 +67,7 @@ Recursion + index        -> usually O(n)
 
 */
 
-public class Skip_A_Word {
+public class Skip_A_Chara {
     public static void main(String[] args) {
         String str = "Apple";
         System.out.println(skip(str));
