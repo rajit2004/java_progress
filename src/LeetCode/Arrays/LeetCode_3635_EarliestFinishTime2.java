@@ -29,40 +29,35 @@ class LeetCode_3636_EarliestFinishTime2{
     static int solve(int[] firstStart, int[] firstDuration,
                       int[] secondStart, int[] secondDuration) {
 
-        // Find the earliest possible finishing time among all rides
-        // of the first category.
-        //
-        // Key Observation:
-        // If one ride finishes earlier than another,
-        // it can never be worse because:
-        //
-        // max(smallerFinish, startTime)
-        // <=
-        // max(largerFinish, startTime)
-        //
-        // Therefore we only need the minimum finish time.
+        // Find the earliest possible finishing time among all rides of the first category.
+
+        /*
+             Key Observation:
+             If one ride finishes earlier than another,
+             it can never be worse because:
+
+             max(smallerFinish, startTime) <= max(largerFinish, startTime)
+
+             Therefore we only need the minimum finish time.
+         */
+
         int earliestFinish = Integer.MAX_VALUE;
 
-        for (int i = 0; i < firstStart.length; i++) {
-            earliestFinish = Math.min(
-                    earliestFinish,
-                    firstStart[i] + firstDuration[i]
-            );
-        }
+        for (int i = 0; i < firstStart.length; i++)
+            earliestFinish = Math.min( earliestFinish, firstStart[i] + firstDuration[i]);
+
 
         // Try every ride from the second category.
+
         int answer = Integer.MAX_VALUE;
 
         for (int i = 0; i < secondStart.length; i++) {
 
-            // If the second ride is already open,
-            // start immediately after finishing the first ride.
-            //
+            // If the second ride is already open = > start immediately after finishing the first ride.
+
             // Otherwise, wait until the second ride opens.
-            int startSecond = Math.max(
-                    earliestFinish,
-                    secondStart[i]
-            );
+
+            int startSecond = Math.max(earliestFinish,secondStart[i]);
 
             // Time when both rides are completed.
             int finishSecond = startSecond + secondDuration[i];
