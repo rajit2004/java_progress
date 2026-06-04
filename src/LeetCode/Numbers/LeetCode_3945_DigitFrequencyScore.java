@@ -3,7 +3,7 @@ package LeetCode.Numbers;
 public class LeetCode_3945_DigitFrequencyScore {
     public static void main(String[] args) {
         System.out.println(digitFrequencyScore(122));
-
+        System.out.println(digitFrequencyScore2(101));
     }
 
 /*   My approach :
@@ -46,4 +46,14 @@ this way we can add it directly to our answer and if not then we have the sum of
         return ans;
     }
 
+//    optimized solution :  reduces run time to 1ms from 2ms :
+
+    static int digitFrequencyScore2(int n){
+        int ans = 0;
+        while(n > 0){
+            ans += n % 10;
+            n /= 10;
+        }
+        return ans;
+    }
 }
