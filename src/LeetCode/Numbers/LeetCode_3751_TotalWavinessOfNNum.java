@@ -12,6 +12,9 @@ Any number with fewer than 3 digits has a waviness of 0.
 Return the total sum of waviness for all numbers in the range [num1, num2].
 */
 
+// time complexity = O(R) where R = num2 - num1 + 1
+// but slower than iterative approach coz recursion has to create  new fn calls and new stack frames
+
 public class LeetCode_3751_TotalWavinessOfNNum {
     public static void main(String[] args) {
         int n = 120;

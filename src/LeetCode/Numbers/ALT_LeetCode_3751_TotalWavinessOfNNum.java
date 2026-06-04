@@ -1,5 +1,8 @@
 package LeetCode.Numbers;
 
+// time complexity = O(R) where R = num2 - num1 + 1
+// still faster than recursion approach coz recursion has to create  new fn calls and new stack frames
+
 public class ALT_LeetCode_3751_TotalWavinessOfNNum {
     public static void main(String[] args) {
         int n = 120;
