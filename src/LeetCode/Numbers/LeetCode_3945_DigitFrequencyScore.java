@@ -57,3 +57,11 @@ this way we can add it directly to our answer and if not then we have the sum of
         return ans;
     }
 }
+
+
+/*
+Time Complexity: O(d)
+Space Complexity: O(1)
+
+where d is the number of digits.
+*/
