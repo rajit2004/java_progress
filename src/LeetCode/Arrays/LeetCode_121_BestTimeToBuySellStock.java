@@ -102,8 +102,7 @@ If no profitable transaction exists, return 0.
 
         for (int price : prices) {
 
-            // Profit if we sell today and buy at the
-            // cheapest price seen before today.
+            // Profit if we sell today and buy at the cheapest price seen before today.
             maxprofit = Math.max(maxprofit, price - minSoFar);
 
             // Update the cheapest buying price seen so far.
