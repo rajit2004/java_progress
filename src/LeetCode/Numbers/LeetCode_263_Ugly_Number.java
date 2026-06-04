@@ -1,4 +1,4 @@
-package LeetCode.Math;
+package LeetCode.Numbers;
 
 public class LeetCode_263_Ugly_Number {
     public static void main(String[] args) {

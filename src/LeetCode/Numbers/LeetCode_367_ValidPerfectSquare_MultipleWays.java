@@ -1,4 +1,4 @@
-package LeetCode.Math;
+package LeetCode.Numbers;
 
 public class LeetCode_367_ValidPerfectSquare_MultipleWays {
     public static void main(String[] args) {

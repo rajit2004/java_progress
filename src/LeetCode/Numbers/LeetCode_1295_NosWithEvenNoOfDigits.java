@@ -1,7 +1,7 @@
 // 1295. Find Questions.Numbers with Even Number of Digits
 // (Given an array nums of integers, return how many of them contain an even number of digits.)
 
-package LeetCode.Math;
+package LeetCode.Numbers;
 
 public class LeetCode_1295_NosWithEvenNoOfDigits {
     public static void main(String[] args) {
