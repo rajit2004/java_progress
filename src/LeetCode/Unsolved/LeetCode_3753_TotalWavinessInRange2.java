@@ -1,4 +1,4 @@
-package LeetCode.Numbers;
+package LeetCode.Unsolved;
 
 /*
 You are given two integers num1 and num2 representing an inclusive range [num1, num2].
