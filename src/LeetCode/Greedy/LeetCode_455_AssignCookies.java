@@ -1,4 +1,4 @@
-package LeetCode.Arrays;
+package LeetCode.Greedy;
 
 /*
 Assume you are an awesome parent and want to give your children some cookies.

@@ -1,4 +1,4 @@
-package LeetCode.Numbers;
+package LeetCode.Maths;
 
 public class LeetCode_258_SumOfDigitsInNumber_BruteForce {
     public static void main(String[] args) {

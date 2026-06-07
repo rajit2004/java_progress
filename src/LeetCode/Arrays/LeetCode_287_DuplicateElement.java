@@ -6,8 +6,6 @@ where each integer is in the range [1, n] inclusive.
 There is only one repeated number in nums, return this repeated number.
 */
 
-import java.util.Arrays;
-
 public class LeetCode_287_DuplicateElement {
     public static void main(String[] args) {
         int[] nums = {1,4,3,4,2};

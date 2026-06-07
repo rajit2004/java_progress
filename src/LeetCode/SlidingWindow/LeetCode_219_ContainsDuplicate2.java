@@ -1,4 +1,4 @@
-package LeetCode.Arrays;
+package LeetCode.SlidingWindow;
 
 /*
 We only care about elements within k positions.

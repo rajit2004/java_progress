@@ -1,4 +1,4 @@
-package LeetCode.TwoPointers;
+package LeetCode.Strings;
 
 public class LeetCode_5_LongestPalindromeSubstring {
     public static void main(String[] args) {

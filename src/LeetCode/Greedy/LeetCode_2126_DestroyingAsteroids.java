@@ -1,4 +1,4 @@
-package LeetCode.Arrays;
+package LeetCode.Greedy;
 
 /*
 You are given an integer mass, which represents the original mass of a planet.

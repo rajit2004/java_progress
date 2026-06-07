@@ -1,4 +1,4 @@
-package LeetCode.Strings;
+package LeetCode.SlidingWindow;
 
 public class LeetCode_3_LongestSubstringWithoutRepeatingChars {
     public static void main(String[] args) {

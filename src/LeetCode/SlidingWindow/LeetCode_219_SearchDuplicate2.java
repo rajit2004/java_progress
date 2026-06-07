@@ -1,4 +1,4 @@
-package LeetCode.Arrays;
+package LeetCode.SlidingWindow;
 
 /*
 Given an integer array nums and an integer k,

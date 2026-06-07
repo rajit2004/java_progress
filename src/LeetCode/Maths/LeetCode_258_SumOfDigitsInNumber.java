@@ -1,4 +1,4 @@
-package LeetCode.Numbers;
+package LeetCode.Maths;
 
 public class LeetCode_258_SumOfDigitsInNumber {
     public static void main(String[] args) {

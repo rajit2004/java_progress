@@ -1,4 +1,4 @@
-package LeetCode.Arrays;
+package LeetCode.Greedy;
 
 /*
 You are given an array tasks where tasks[i] = [actuali, minimumi]:

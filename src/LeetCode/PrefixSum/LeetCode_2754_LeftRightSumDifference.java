@@ -1,4 +1,4 @@
-package LeetCode.Arrays;
+package LeetCode.PrefixSum;
 
 /*
 You are given a 0-indexed integer array nums of size n.

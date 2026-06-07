@@ -1,4 +1,4 @@
-package LeetCode.Numbers;
+package LeetCode.Maths;
 
 /*
 Given an integer n, return a string array answer (1-indexed) where:
