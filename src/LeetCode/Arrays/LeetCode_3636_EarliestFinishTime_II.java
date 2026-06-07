@@ -1,6 +1,6 @@
 package LeetCode.Arrays;
 
-class LeetCode_3636_EarliestFinishTime2{
+public class LeetCode_3636_EarliestFinishTime_II {
     public static void main(String[] args) {
         int[] landStartTime = {2,8};
         int[] landDuration = {4,1};
@@ -9,8 +9,8 @@ class LeetCode_3636_EarliestFinishTime2{
 
         System.out.println(earliestFinishTime(landStartTime , landDuration , waterStartTime , waterDuration));
     }
-    static int earliestFinishTime(int[] landStartTime, int[] landDuration,
-                                  int[] waterStartTime, int[] waterDuration) {
+
+    static int earliestFinishTime(int[] landStartTime, int[] landDuration, int[] waterStartTime, int[] waterDuration) {
 
         // Case 1:
         // Land ride first, then Water ride.
@@ -27,7 +27,7 @@ class LeetCode_3636_EarliestFinishTime2{
     }
 
     static int solve(int[] firstStart, int[] firstDuration,
-                      int[] secondStart, int[] secondDuration) {
+                     int[] secondStart, int[] secondDuration) {
 
         // Find the earliest possible finishing time among all rides of the first category.
 
