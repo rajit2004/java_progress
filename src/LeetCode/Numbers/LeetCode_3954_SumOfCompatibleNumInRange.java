@@ -1,5 +1,16 @@
 package LeetCode.Numbers;
 
+/*
+
+You are given two integers n and k.
+
+A positive integer x is called compatible if it satisfies both of the following conditions:
+        abs(n - x) <= k
+        (n & x) == 0
+
+Return the sum of all compatible integers x.
+*/
+
 public class LeetCode_3954_SumOfCompatibleNumInRange {
     public static void main(String[] args) {
         System.out.println(sumOfGoodIntegers(2,3));
