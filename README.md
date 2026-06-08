@@ -20,29 +20,33 @@ Inspired by [Kunal Kushwaha's DSA Bootcamp](https://github.com/kunal-kushwaha/DS
 
 ## 📈 DSA Progress
 
-| Topic | Status | Problems Solved |
-|---|---|---|
-| Java Basics | ✅ Done | 4 |
-| Arrays & ArrayList | ✅ Done | 24 |
-| Strings | ✅ Done | 25 |
-| Searching & Sorting | ✅ Done | 22 |
-| Binary Search | ✅ Done | 20 |
-| Bit Manipulation | ✅ Done | 3 |
-| Recursion | 🔄 In Progress | — |
-| Linked Lists | 🔜 Up Next | — |
-| Trees | 🔜 Upcoming | — |
-| Graphs | 🔜 Upcoming | — |
-| Dynamic Programming | 🔜 Upcoming | — |
+| Topic | Problems Solved |
+|---|---|
+| Java Basics | 4 |
+| Arrays & ArrayList | 39 |
+| Searching & Sorting | 22 |
+| Binary Search | 13 |
+| Strings | 25 |
+| Two Pointers | 4 |
+| Sliding Window | 2 |
+| Bit Manipulation | 4 |
+| Greedy | 5 |
+| Math & Numbers | 13 |
+| Prefix Sum | 3 |
+| Hashing & Misc | 2 |
+| Trees | 1 |
+| Recursion | 5 |
+| Linked Lists | — |
+| Graphs | — |
+| Dynamic Programming | — |
 
 ---
 
 ## 🎯 DSA Milestones
 
 - [x] 10 Problems Solved
-- [x] 25 Problems Solved
 - [x] 50 Problems Solved
-- [x] 75 Problems Solved
-- [ ] 100 Problems Solved
+- [x] 100 Problems Solved
 - [ ] 200 Problems Solved
 - [ ] 300 Problems Solved
 - [ ] 500 Problems Solved
@@ -114,7 +118,7 @@ This repo is free for everyone — no paywalls, no paid courses. If it's helped 
 ## 🎯 Milestones
 
 - [x] 50 Problems Solved
-- [ ] 100 Problems Solved
+- [x] 100 Problems Solved
 - [ ] Complete Recursion Module
 - [ ] Complete Linked Lists Module
 - [ ] 200 Problems Solved
