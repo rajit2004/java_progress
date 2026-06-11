@@ -1,4 +1,4 @@
-package LeetCode.BinaryTree;
+package LeetCode.Tree;
 
 /*
 You are given a 2D integer array descriptions where: [parent, child, isLeft] describes a parent-child relationship in a binary tree.

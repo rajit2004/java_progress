@@ -1,4 +1,4 @@
-package LeetCode.BinaryTree;
+package LeetCode.Tree;
 
 /*
     Basic Binary Tree Node Structure
