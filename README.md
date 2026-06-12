@@ -34,7 +34,7 @@ Inspired by [Kunal Kushwaha's DSA Bootcamp](https://github.com/kunal-kushwaha/DS
 | Math & Numbers | 13 |
 | Prefix Sum | 3 |
 | Hashing & Misc | 2 |
-| Trees | 1 |
+| Trees | 3 |
 | Recursion | 5 |
 | Linked Lists | — |
 | Graphs | — |
@@ -110,18 +110,15 @@ This repo is free for everyone — no paywalls, no paid courses. If it's helped 
 
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/rajit2004)
 
-### 🙏 Thank you to my supporters
-*Your name could be here! [Become a sponsor →](https://github.com/sponsors/rajit2004)*
-
 ---
 
 ## 🎯 Milestones
 
-- [x] 50 Problems Solved
-- [x] 100 Problems Solved
-- [ ] Complete Recursion Module
+- [x] Complete Recursion Module
+- [ ] Complete Object-Oriented Module
 - [ ] Complete Linked Lists Module
-- [ ] 200 Problems Solved
+- [ ] Complete Trees & Graphs Module
+- [ ] Complete Collections
 - [ ] Publish Free DSA Notes
 
 ---
