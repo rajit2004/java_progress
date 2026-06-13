@@ -4,7 +4,7 @@ package Recursion.Questions.Strings.SubsetProblems;
 For every character we make 2 choices:
 
         1. Pick it
-2. Skip it
+        2. Skip it
 
 Total subsets generated = 2ⁿ
 
