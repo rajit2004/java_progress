@@ -18,6 +18,10 @@ Inspired by [Kunal Kushwaha's DSA Bootcamp](https://github.com/kunal-kushwaha/DS
 
 ---
 
+[![Roadmap](https://img.shields.io/badge/Java-Roadmap-blue?style=flat&logo=java)](ROADMAP.md)
+
+> **New to Java? Start with the [complete roadmap](ROADMAP.md).**
+
 ## 📈 DSA Progress
 
 | Topic | Problems Solved |
