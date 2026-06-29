@@ -16,25 +16,17 @@ public class LeetCode_3020_MaxNumOfEleInSubset {
     /*
         Greedy + Sorting Approach :
 
-        Sort the array and store distinct elements along
-        with their frequencies.
-
-        For every distinct number x:
-
-            x -> x² -> x⁴ -> x⁸ ...
+        Sort the array and store distinct elements along with their frequencies.
+        For every distinct number x: x -> x² -> x⁴ -> x⁸ ...
 
         Try to build the longest possible chain.
 
         Rules:
-            1. Every element except the middle element
-               must appear at least twice.
+            1. Every element except the middle element must appear at least twice.
             2. The subset length must always be odd.
-            3. If an element appears only once, it becomes
-               the middle element and the chain stops.
+            3. If an element appears only once, it becomes the middle element and the chain stops.
 
-        Special Case:
-            Number 1 always squares to itself, so the answer
-            is simply the largest odd frequency of 1.
+        Special Case: Number 1 always squares to itself, so the answer is simply the largest odd frequency of 1.
      */
 
     static int maximumLength(int[] nums) {
@@ -91,18 +83,12 @@ public class LeetCode_3020_MaxNumOfEleInSubset {
                 if (idx == -1)
                     break;
 
-                /*
-                    If current number appears at least twice,
-                    it can contribute two elements to the chain.
-                 */
+//                    If current number appears at least twice, it can contribute two elements to the chain.
                 if (freq.get(idx) >= 2) {
                     len += 2;
                 }
 
-                /*
-                    If it appears once, it can only act as
-                    the middle element.
-                 */
+//                    If it appears once, it can only act as the middle element.
                 else if (freq.get(idx) == 1) {
                     len += 1;
                     break;
@@ -115,9 +101,7 @@ public class LeetCode_3020_MaxNumOfEleInSubset {
                 // Move to next square.
                 curr = curr * curr;
 
-                /*
-                    Prevent overflow and unnecessary work.
-                 */
+//                    Prevent overflow and unnecessary work.
                 if (curr > 1_000_000_000L) {
 
                     // Last pair cannot be completed.
@@ -126,11 +110,7 @@ public class LeetCode_3020_MaxNumOfEleInSubset {
                 }
             }
 
-            /*
-                If chain ended before finding a valid middle,
-                remove one element from the last pair to keep
-                the subset length odd.
-             */
+//                If chain ended before finding a valid middle, remove one element from the last pair to keep the subset length odd.
             if (len > 0 && len % 2 == 0) {
                 len--;
             }
@@ -141,13 +121,8 @@ public class LeetCode_3020_MaxNumOfEleInSubset {
         return ans;
     }
 
-    /*
-        Binary Search on distinct values list.
+//        Binary Search on distinct values list. Returns: index of target if present -1 otherwise
 
-        Returns:
-            index of target if present
-            -1 otherwise
-     */
     static int binarySearch(List<Long> values, long target) {
 
         int left = 0;
@@ -186,22 +161,13 @@ Time Complexity: O(n log n)
 
 Reason:
 
-1. Sorting the array:
-   O(n log n)
+1. Sorting the array: O(n log n)
 
-2. Building frequency lists:
-   O(n)
+2. Building frequency lists: O(n)
 
-3. For each distinct value, perform binary searches
-   along the squaring chain.
+3. For each distinct value, perform binary searches along the squaring chain.
 
-   Since values grow exponentially:
-
-   x -> x² -> x⁴ -> ...
-
-   the chain length is very small (at most ~5).
-
-   Therefore total complexity remains dominated by sorting.
+   Since values grow exponentially: x -> x² -> x⁴ -> ... the chain length is very small (at most ~5). Therefore total complexity remains dominated by sorting.
 
 Overall: O(n log n)
 
@@ -209,16 +175,12 @@ Overall: O(n log n)
 
 Space Complexity: O(m)
 
-Reason:
-
-Two lists are maintained:
+Reason: Two lists are maintained:
 
 1. values  -> distinct numbers
 2. freq    -> frequencies
 
-In the worst case:
-
-m = n
+In the worst case: m = n
 
 Hence: O(n)
 
@@ -228,19 +190,14 @@ Key Observation:
 
 A valid subset must always have odd length.
 
-All elements except the middle element require
-a matching pair.
+All elements except the middle element require a matching pair.
 
 Therefore:
 
 frequency >= 2 -> contributes 2 elements
 frequency == 1 -> contributes only the middle element
 
-Special handling is required for number 1 because:
-
-1² = 1
-
-which creates an infinite chain.
+Special handling is required for number 1 because: 1² = 1 which creates an infinite chain.
 
 ---------------------------------------------------------
 */
