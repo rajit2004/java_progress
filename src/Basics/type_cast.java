@@ -1,4 +1,4 @@
-package basics;
+package Basics;
 
 public class type_cast {
     public static void main (String[] args){

@@ -1,4 +1,4 @@
-package basics;
+package Basics;
 
 public class first{
     public static void main(String[] args) { // made using "psvm" snippet
