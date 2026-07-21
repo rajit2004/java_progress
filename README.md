@@ -86,31 +86,42 @@ Inspired by [Kunal Kushwaha's DSA Bootcamp](https://github.com/kunal-kushwaha/DS
 ## 📁 Repository Structure
 
 ```
-java_progress/
-└── src/
-    ├── Basics/              # Java fundamentals — data types, I/O, operators, type casting
-    ├── Conditionals/        # If-else, switch, nested conditions
-    ├── Loops/               # Loop patterns and practice
-    ├── Methods/             # Functions, overloading, varargs, recursion
-    ├── Arrays/              # Array & ArrayList operations, 2D arrays, passing in functions
-    ├── Strings/             # String methods, builders, palindrome, comparisons
-    ├── Numbers/             # Armstrong, Fibonacci, prime, number reversal
-    ├── Searching/           # Linear search, Binary search (ascending/descending/2D/order-agnostic)
-    ├── Sorting/             # Bubble, Selection, Insertion, Cycle, Merge sort + recursive variants
-    ├── Recursion/           # Recursion fundamentals — sorting, searching, patterns, maths
-    ├── Questions/           # Practice questions — Arrays, BitOps, Numbers, Patterns, Recursion
-    ├── Notes/               # Reference notes
+src/
+    ├── Basics/                  # Java fundamentals — syntax, data types, I/O, operators, type casting
+    ├── Conditionals/            # If-else, switch, nested switch, calculators, comparisons
+    ├── Loops/                   # Loop basics and practice
+    ├── Methods/                 # Functions, overloading, varargs, recursion basics, utilities
+    ├── Arrays/                  # Arrays, ArrayLists, 2D arrays, traversal, manipulation, utilities
+    ├── Strings/                 # String operations, builders, formatting, palindrome, performance
+    ├── Searching/               # Linear, Binary, Order-Agnostic, 2D, Matrix & Recursive Searching
+    ├── Sorting/                 # Bubble, Selection, Insertion, Cycle, Merge, Quick Sort & Recursive variants
+    ├── Recursion/               # Fundamentals, recursion-based sorting/searching, arrays, strings & recursion problems
+    ├── Questions/
+    │   ├── Arrays/              # Binary Search interview problems
+    │   ├── BitwiseOperators/    # Bit manipulation questions
+    │   ├── Numbers/             # Number theory problems
+    │   └── Patterns/            # Pattern printing (iterative & recursive)
+    ├── Notes/                   # Reference notes
     └── LeetCode/
-        ├── Arrays/          # 48 files — Two Sum, Missing Number, Greedy, Asteroids…
-        ├── BinarySearch/    # 13 files — Rotated arrays, peak finding, mountain array…
-        ├── Strings/         # 27 files — Anagram, palindrome, sliding window, password…
-        ├── TwoPointers/     # 7 files — Valid Palindrome, Move Zeroes, Happy Number…
-        ├── BitManipulation/ # 3 files — Reverse Bits, Number of 1 Bits, Steps to Zero
-        ├── Math/            # 8 files — Power of Two, Ugly Number, Fizz Buzz…
-        ├── Recursion/       # 1 file — Steps to Reduce Number to Zero
-        └── Misc/            # 4 files — Isomorphic Strings, Richest Customer Wealth…
+        ├── Arrays/              # Array problems — 40+ solutions (Two Sum, Stock, Missing Number, Grid, etc.)
+        ├── BinarySearch/        # Rotated Arrays, Mountain Arrays, Peak Element, Search Insert, Sqrt, etc.
+        ├── BitManipulation/     # Reverse Bits, Hamming Weight, Power of Two, Steps to Zero
+        ├── DynamicProgramming/  # Fibonacci, Climbing Stairs, Pascal Triangle II, DP contests
+        ├── Enum/                # Enumeration-based problems
+        ├── Graphs/              # Graph traversal & connectivity problems
+        ├── Greedy/              # Cookies, Asteroids, Energy, Subsequences, Greedy contests
+        ├── LinkedList/          # Add Two Numbers, Delete Middle, Twin Sum
+        ├── Maths/               # Clock Angle, Nim Game, FizzBuzz, Digit Sum, GCD
+        ├── Misc/                # Miscellaneous easy/interview problems
+        ├── Numbers/             # Number theory, GCD, Prime, Perfect Square, Digit problems
+        ├── PrefixSum/           # Prefix Sum and Difference Array problems
+        ├── Recursion/           # Recursive problem solving
+        ├── SlidingWindow/       # Longest Substring, Contains Duplicate II, Sliding Window problems
+        ├── Strings/             # String manipulation, Anagram, Parentheses, Palindrome, Passwords, etc.
+        ├── Tree/                # Binary Tree construction and tree problems
+        ├── TwoPointers/         # Two-pointer techniques, Happy Number, Move Zeroes, Reverse String
+        └── Unsolved/            # Work-in-progress and unsolved problems
 ```
-
 ---
 
 ## 📚 Resources I'm Using
