@@ -51,22 +51,24 @@ Inspired by [Kunal Kushwaha's DSA Bootcamp](https://github.com/kunal-kushwaha/DS
 | Topic | Problems Solved |
 |---|---|
 | Java Basics | 4 |
-| Arrays & ArrayList | 39 |
+| Arrays & ArrayList | 53 |
 | Searching & Sorting | 22 |
 | Binary Search | 13 |
-| Strings | 25 |
-| Two Pointers | 4 |
-| Sliding Window | 2 |
+| Strings | 38 |
+| Two Pointers | 6 |
+| Sliding Window | 4 |
 | Bit Manipulation | 4 |
-| Greedy | 5 |
-| Math & Numbers | 13 |
-| Prefix Sum | 3 |
-| Hashing & Misc | 2 |
-| Trees | 3 |
+| Greedy | 9 |
+| Math & Numbers | 23 |
+| Prefix Sum | 7 |
+| Hashing & Misc | 4 |
+| Trees | 2 |
 | Recursion | 5 |
-| Linked Lists | — |
-| Graphs | — |
-| Dynamic Programming | — |
+| Linked Lists | 3 |
+| Graphs | 4 |
+| Dynamic Programming | 6 |
+
+**Total: 207+ problems solved**
 
 ---
 
@@ -75,7 +77,7 @@ Inspired by [Kunal Kushwaha's DSA Bootcamp](https://github.com/kunal-kushwaha/DS
 - [x] 10 Problems Solved
 - [x] 50 Problems Solved
 - [x] 100 Problems Solved
-- [ ] 200 Problems Solved
+- [x] 200 Problems Solved
 - [ ] 300 Problems Solved
 - [ ] 500 Problems Solved
 
