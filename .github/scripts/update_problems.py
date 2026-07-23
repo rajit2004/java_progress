@@ -17,7 +17,7 @@ from datetime import datetime
 
 README_PATH   = "README.md"
 PROBLEMS_PATH = "PROBLEMS.md"
-LC_BASE       = "JAVA/LeetCode"
+LC_BASE = "src/LeetCode"
 
 HEADERS = {
     "Content-Type": "application/json",
