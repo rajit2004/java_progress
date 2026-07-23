@@ -1,12 +1,14 @@
-# .github/workflows/
-# Place in: rajit2004/open-source-contributions/.github/workflows/
+# .github/workflows/update_problems.yml
+# Place in: java_progress/.github/workflows/
 
-name: Update Contributions
+name: Update LeetCode Problem List
 
 on:
-  schedule:
-    - cron: "0 */3 * * *"   # every 3 hours
-  workflow_dispatch:          # manual trigger
+  push:
+    branches: [main]
+    paths:
+      - "JAVA/LeetCode/**"   # triggers only when a new solution is pushed
+  workflow_dispatch:
 
 jobs:
   update:
@@ -15,9 +17,10 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
         with:
+          fetch-depth: 0       # needed for git log dates
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
@@ -28,15 +31,13 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run contribution tracker
-        run: python .github/update_contributions.py
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate PROBLEMS.md
+        run: python .github/scripts/update_problems.py
 
       - name: Commit and push
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git diff --staged --quiet || git commit -m "🤝 Auto-update contributions"
+          git add PROBLEMS.md README.md
+          git diff --staged --quiet || git commit -m "📋 Auto-update problem list"
           git push
