@@ -48,6 +48,9 @@ Inspired by [Kunal Kushwaha's DSA Bootcamp](https://github.com/kunal-kushwaha/DS
 
 ## 📈 DSA Progress
 
+> 📋 [View All Solved Problems](PROBLEMS.md)
+
+
 | Topic | Problems Solved |
 |---|---|
 | Java Basics | 4 |
