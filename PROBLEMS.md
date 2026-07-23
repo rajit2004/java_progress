@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **171** problems solved in Java — auto-updated on every push.
-> Last updated: 23 Jul 2026, 08:24 UTC
+> All **172** problems solved in Java — auto-updated on every push.
+> Last updated: 23 Jul 2026, 18:19 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 101 | 53 | 17 | 171 |
+| 102 | 53 | 17 | 172 |
 
 ---
 
@@ -70,6 +70,7 @@
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | 🟡 Medium | `Arrays` | 2026-04-15 |
 | 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | 🟢 Easy | `Maths` | 2026-06-05 |
 | 316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | 🟡 Medium | `Greedy` | 2026-07-19 |
+| 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | 🟢 Easy | `DynamicProgramming` | 2026-07-23 |
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | 🟢 Easy | `TwoPointers` | 2026-05-08 |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy | `Arrays` | 2026-05-29 |
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy | `Arrays` | 2026-05-18 |
