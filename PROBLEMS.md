@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **179** problems solved in Java — auto-updated on every push.
-> Last updated: 31 Jul 2026, 13:49 UTC
+> All **182** problems solved in Java — auto-updated on every push.
+> Last updated: 03 Aug 2026, 18:58 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 105 | 56 | 18 | 179 |
+| 105 | 58 | 19 | 182 |
 
 ---
 
@@ -87,6 +87,7 @@
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | 🟢 Easy | `Arrays` | 2026-04-15 |
 | 455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | 🟢 Easy | `Greedy` | 2026-05-29 |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🟢 Easy | `Arrays` | 2026-06-14 |
+| 486 | [Predict the Winner](https://leetcode.com/problems/predict-the-winner/) | 🟡 Medium | `Recursion` | 2026-08-01 |
 | 506 | [Relative Ranks](https://leetcode.com/problems/relative-ranks/) | 🟢 Easy | `Arrays` | 2026-07-06 |
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | 🟢 Easy | `DynamicProgramming` | 2026-06-10 |
 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | 🟢 Easy | `Strings` | 2026-05-21 |
@@ -98,6 +99,7 @@
 | 744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | 🟢 Easy | `BinarySearch` | 2026-04-02 |
 | 796 | [Rotate String](https://leetcode.com/problems/rotate-string/) | 🟢 Easy | `Strings` | 2026-05-03 |
 | 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | 🟡 Medium | `BinarySearch` | 2026-04-03 |
+| 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium | `DynamicProgramming` | 2026-08-03 |
 | 976 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | 🟢 Easy | `Arrays` | 2026-05-30 |
 | 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | 🟢 Easy | `Arrays` | 2026-05-29 |
 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | 🟢 Easy | `Arrays` | 2026-06-03 |
@@ -118,6 +120,7 @@
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | 🟢 Easy | `Arrays` | 2026-05-22 |
 | 1358 | [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | 🟡 Medium | `SlidingWindow` | 2026-06-30 |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | 🟢 Easy | `Misc` | 2026-04-11 |
+| 1406 | [Stone Game III](https://leetcode.com/problems/stone-game-iii/) | 🔴 Hard | `DynamicProgramming` | 2026-08-03 |
 | 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | 🟢 Easy | `Arrays` | 2026-07-31 |
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | 🟢 Easy | `Strings` | 2026-05-21 |
 | 1665 | [Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/) | 🔴 Hard | `Greedy` | 2026-05-12 |
