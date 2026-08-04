@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **182** problems solved in Java — auto-updated on every push.
-> Last updated: 03 Aug 2026, 18:58 UTC
+> All **183** problems solved in Java — auto-updated on every push.
+> Last updated: 04 Aug 2026, 14:54 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 105 | 58 | 19 | 182 |
+| 106 | 58 | 19 | 183 |
 
 ---
 
@@ -182,6 +182,7 @@
 | 3689 | [Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/) | 🟡 Medium | `Greedy` | 2026-06-09 |
 | 3699 | [Number of ZigZag Arrays I](https://leetcode.com/problems/number-of-zigzag-arrays-i/) | 🔴 Hard | `DynamicProgramming` | 2026-06-23 |
 | 3700 | [Number of ZigZag Arrays II](https://leetcode.com/problems/number-of-zigzag-arrays-ii/) | 🔴 Hard | `DynamicProgramming` | 2026-06-25 |
+| 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy | `Arrays` | 2026-08-04 |
 | 3737 | [Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/) | 🟡 Medium | `PrefixSum` | 2026-06-25 |
 | 3739 | [Count Subarrays With Majority Element II](https://leetcode.com/problems/count-subarrays-with-majority-element-ii/) | 🔴 Hard | `PrefixSum` | 2026-06-26 |
 | 3751 | [Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | 🟡 Medium | `Numbers` | 2026-06-04 |
