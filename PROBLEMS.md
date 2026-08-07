@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **183** problems solved in Java — auto-updated on every push.
-> Last updated: 04 Aug 2026, 14:54 UTC
+> All **184** problems solved in Java — auto-updated on every push.
+> Last updated: 07 Aug 2026, 20:14 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 106 | 58 | 19 | 183 |
+| 107 | 58 | 19 | 184 |
 
 ---
 
@@ -163,6 +163,7 @@
 | 3300 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | 🟢 Easy | `Arrays` | 2026-05-29 |
 | 3312 | [Sorted GCD Pair Queries](https://leetcode.com/problems/sorted-gcd-pair-queries/) | 🔴 Hard | `Numbers` | 2026-07-17 |
 | 3336 | [Find the Number of Subsequences With Equal GCD](https://leetcode.com/problems/find-the-number-of-subsequences-with-equal-gcd/) | 🔴 Hard | `DynamicProgramming` | 2026-07-14 |
+| 3345 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | 🟢 Easy | `Enum` | 2026-08-07 |
 | 3411 | [Maximum Subarray With Equal Products](https://leetcode.com/problems/maximum-subarray-with-equal-products/) | 🟢 Easy | `SlidingWindow` | 2026-07-14 |
 | 3499 | [Maximize Active Section with Trade I](https://leetcode.com/problems/maximize-active-section-with-trade-i/) | 🟡 Medium | `Strings` | 2026-07-21 |
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | `BitManipulation` | 2026-07-23 |
