@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **193** problems solved in Java — auto-updated on every push.
-> Last updated: 15 Aug 2026, 15:48 UTC
+> All **195** problems solved in Java — auto-updated on every push.
+> Last updated: 17 Aug 2026, 16:37 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 112 | 61 | 20 | 193 |
+| 112 | 62 | 21 | 195 |
 
 ---
 
@@ -126,6 +126,7 @@
 | 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) | 🟢 Easy | `Strings` | 2026-08-15 |
 | 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | 🟢 Easy | `Arrays` | 2026-07-31 |
 | 1510 | [Stone Game IV](https://leetcode.com/problems/stone-game-iv/) | 🔴 Hard | `DynamicProgramming` | 2026-08-10 |
+| 1563 | [Stone Game V](https://leetcode.com/problems/stone-game-v/) | 🔴 Hard | `DynamicProgramming` | 2026-08-17 |
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | 🟢 Easy | `Strings` | 2026-05-21 |
 | 1665 | [Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/) | 🔴 Hard | `Greedy` | 2026-05-12 |
 | 1668 | [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/) | 🟢 Easy | `Strings` | 2026-05-24 |
@@ -139,6 +140,7 @@
 | 1967 | [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) | 🟢 Easy | `Strings` | 2026-05-21 |
 | 1979 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 Easy | `Arrays` | 2026-07-14 |
 | 1991 | [Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/) | 🟢 Easy | `PrefixSum` | 2026-06-07 |
+| 2029 | [Stone Game IX](https://leetcode.com/problems/stone-game-ix/) | 🟡 Medium | `Arrays` | 2026-08-17 |
 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | 🟡 Medium | `LinkedList` | 2026-06-15 |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | 🟢 Easy | `Strings` | 2026-04-16 |
 | 2126 | [Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/) | 🟡 Medium | `Greedy` | 2026-05-31 |
