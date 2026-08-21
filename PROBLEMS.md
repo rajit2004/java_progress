@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **198** problems solved in Java — auto-updated on every push.
-> Last updated: 19 Aug 2026, 14:50 UTC
+> All **201** problems solved in Java — auto-updated on every push.
+> Last updated: 21 Aug 2026, 17:45 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 114 | 63 | 21 | 198 |
+| 116 | 63 | 22 | 201 |
 
 ---
 
@@ -157,6 +157,7 @@
 | 2450 | [Number of Distinct Binary Strings After Applying Operations](https://leetcode.com/problems/number-of-distinct-binary-strings-after-applying-operations/) | 🟡 Medium | `Arrays` | 2026-05-20 |
 | 2492 | [Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | 🟡 Medium | `Graphs` | 2026-07-06 |
 | 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/) | 🟢 Easy | `Arrays` | 2026-05-11 |
+| 2656 | [Maximum Sum With Exactly K Elements ](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/) | 🟢 Easy | `Greedy` | 2026-08-20 |
 | 2670 | [Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/) | 🟢 Easy | `Arrays` | 2026-06-07 |
 | 2685 | [Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/) | 🟡 Medium | `Graphs` | 2026-07-14 |
 | 2754 | [Bind Function to Context](https://leetcode.com/problems/bind-function-to-context/) | 🟡 Medium | `PrefixSum` | 2026-06-07 |
@@ -167,8 +168,10 @@
 | 3014 | [Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | 🟢 Easy | `Strings` | 2026-07-31 |
 | 3016 | [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | 🟡 Medium | `Strings` | 2026-07-31 |
 | 3020 | [Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/) | 🟡 Medium | `Arrays` | 2026-06-27 |
+| 3069 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 🟢 Easy | `Arrays` | 2026-08-21 |
 | 3074 | [Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/) | 🟢 Easy | `Arrays` | 2026-05-22 |
 | 3090 | [Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | 🟢 Easy | `SlidingWindow` | 2026-08-15 |
+| 3116 | [Kth Smallest Amount With Single Denomination Combination](https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/) | 🔴 Hard | `BinarySearch` | 2026-08-21 |
 | 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | `Strings` | 2026-05-26 |
 | 3286 | [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | 🟡 Medium | `Arrays` | 2026-07-04 |
 | 3300 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | 🟢 Easy | `Arrays` | 2026-05-29 |
