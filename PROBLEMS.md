@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **201** problems solved in Java — auto-updated on every push.
-> Last updated: 21 Aug 2026, 17:45 UTC
+> All **205** problems solved in Java — auto-updated on every push.
+> Last updated: 25 Aug 2026, 15:00 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 116 | 63 | 22 | 201 |
+| 118 | 64 | 23 | 205 |
 
 ---
 
@@ -138,6 +138,8 @@
 | 1833 | [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/) | 🟡 Medium | `Arrays` | 2026-06-23 |
 | 1840 | [Maximum Building Height](https://leetcode.com/problems/maximum-building-height/) | 🔴 Hard | `Arrays` | 2026-06-20 |
 | 1846 | [Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/) | 🟡 Medium | `Greedy` | 2026-06-29 |
+| 1872 | [Stone Game VIII](https://leetcode.com/problems/stone-game-viii/) | 🔴 Hard | `PrefixSum` | 2026-08-24 |
+| 1927 | [Sum Game](https://leetcode.com/problems/sum-game/) | 🟡 Medium | `Greedy` | 2026-08-23 |
 | 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors/) | 🟢 Easy | `Enum` | 2026-07-14 |
 | 1967 | [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) | 🟢 Easy | `Strings` | 2026-05-21 |
 | 1979 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 Easy | `Arrays` | 2026-07-14 |
@@ -196,10 +198,12 @@
 | 3633 | [Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) | 🟢 Easy | `Arrays` | 2026-06-02 |
 | 3636 | [Threshold Majority Queries](https://leetcode.com/problems/threshold-majority-queries/) | 🔴 Hard | `Arrays` | 2026-06-03 |
 | 3658 | [GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) | 🟢 Easy | `Numbers` | 2026-07-15 |
+| 3662 | [Filter Characters by Frequency](https://leetcode.com/problems/filter-characters-by-frequency/) | 🟢 Easy | `Maths` | 2026-08-22 |
 | 3689 | [Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/) | 🟡 Medium | `Greedy` | 2026-06-09 |
 | 3699 | [Number of ZigZag Arrays I](https://leetcode.com/problems/number-of-zigzag-arrays-i/) | 🔴 Hard | `DynamicProgramming` | 2026-06-23 |
 | 3700 | [Number of ZigZag Arrays II](https://leetcode.com/problems/number-of-zigzag-arrays-ii/) | 🔴 Hard | `DynamicProgramming` | 2026-06-25 |
 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | 🟡 Medium | `BitManipulation` | 2026-08-15 |
+| 3718 | [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | 🟢 Easy | `Arrays` | 2026-08-25 |
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy | `Arrays` | 2026-08-04 |
 | 3737 | [Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/) | 🟡 Medium | `PrefixSum` | 2026-06-25 |
 | 3739 | [Count Subarrays With Majority Element II](https://leetcode.com/problems/count-subarrays-with-majority-element-ii/) | 🔴 Hard | `PrefixSum` | 2026-06-26 |
