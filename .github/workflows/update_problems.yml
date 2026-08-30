@@ -1,13 +1,10 @@
-# .github/workflows/update_problems.yml
-# Place in: java_progress/.github/workflows/
-
 name: Update LeetCode Problem List
 
 on:
   push:
     branches: [main]
     paths:
-      - "JAVA/LeetCode/**"   # triggers only when a new solution is pushed
+      - "src/LeetCode/**"
   workflow_dispatch:
 
 jobs:
