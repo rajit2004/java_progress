@@ -6,27 +6,27 @@ public class LeetCode_2904_ShortestAndLexicographicallySmallestBeautifulString {
         String s = "100011001";
         int k = 3;
 
-        System.out.println(new Solution().shortestBeautifulSubstring(s, k));
+        LeetCode_2904_ShortestAndLexicographicallySmallestBeautifulString solution =
+                new LeetCode_2904_ShortestAndLexicographicallySmallestBeautifulString();
 
-        System.out.println(new Solution2().shortestBeautifulSubstring(s, k));
+        System.out.println(solution.shortestBeautifulSubstringSlidingWindow(s, k));
+
+        System.out.println(solution.shortestBeautifulSubstringBruteForce(s, k));
     }
-}
 
-/*
-    Approach 1: Sliding Window
+    /*
+        Approach 1: Sliding Window
 
-    A beautiful substring must contain exactly k ones.
+        A beautiful substring must contain exactly k ones.
 
-    We maintain a sliding window and keep track of the number of ones inside it.
-    Once the window contains exactly k ones, we remove unnecessary leading zeroes because they only make the substring longer.
+        We maintain a sliding window and keep track of the number of ones inside it.
+        Once the window contains exactly k ones, we remove unnecessary leading zeroes because they only make the substring longer.
 
-    Among all valid substrings, choose:
-        1. Shorter length
-        2. Lexicographically smaller if lengths are equal
- */
-class Solution {
-
-    public String shortestBeautifulSubstring(String s, int k) {
+        Among all valid substrings, choose:
+            1. Shorter length
+            2. Lexicographically smaller if lengths are equal
+     */
+    public String shortestBeautifulSubstringSlidingWindow(String s, int k) {
 
         // Count the total number of ones in the string.
         int total = 0;
@@ -73,9 +73,9 @@ class Solution {
 
         return ans;
     }
-}
 
-/*
+    /*
+    ---------------------------------------------------------
     Approach 2: Brute Force
 
     Try every possible substring length starting from the smallest possible length.
@@ -86,10 +86,8 @@ class Solution {
         3. Keep the lexicographically smallest valid substring.
 
     As soon as a valid substring is found for a given length, it is guaranteed to be the shortest one.
- */
-class Solution2 {
-
-    public String shortestBeautifulSubstring(String s, int k) {
+     */
+    public String shortestBeautifulSubstringBruteForce(String s, int k) {
 
         int n = s.length();
 
@@ -125,52 +123,52 @@ class Solution2 {
 
         return "";
     }
+
+    /*
+    ---------------------------------------------------------
+    Complexity Analysis
+    ---------------------------------------------------------
+
+    Approach 1: Sliding Window
+
+    Time Complexity: O(n)
+
+    Reason: The right pointer moves from left to right once, and the left pointer also moves only forward.
+
+    Overall: O(n)
+    Space Complexity: O(n)
+
+    The implementation creates substring objects for candidate answers.
+
+    Overall: O(n)
+
+    ---------------------------------------------------------
+
+    Approach 2: Brute Force
+
+    Time Complexity: O(n^3)
+
+    Reason:
+
+    1. There are O(n) possible substring lengths.
+    2. For each length, there are O(n) substrings.
+    3. Counting the ones in each substring takes O(n).
+
+    Therefore: O(n^3)
+
+    Space Complexity: O(n)
+
+    Due to the substring objects created while checking candidate substrings.
+
+    ---------------------------------------------------------
+
+    Key Observation:
+
+    A beautiful substring must contain exactly k ones.
+    For the sliding-window solution, once the window contains k ones, leading zeroes can always be removed because they do not affect the number of ones.
+    Therefore, every candidate can be reduced to its shortest valid form.
+    For equal-length candidates, String.compareTo() selects the lexicographically smallest substring.
+
+    ---------------------------------------------------------
+    */
 }
-
-/*
----------------------------------------------------------
-Complexity Analysis
----------------------------------------------------------
-
-Approach 1: Sliding Window
-
-Time Complexity: O(n)
-
-Reason: The right pointer moves from left to right once, and the left pointer also moves only forward.
-
-Overall: O(n)
-Space Complexity: O(n)
-
-The implementation creates substring objects for candidate answers.
-
-Overall: O(n)
-
----------------------------------------------------------
-
-Approach 2: Brute Force
-
-Time Complexity: O(n^3)
-
-Reason:
-
-1. There are O(n) possible substring lengths.
-2. For each length, there are O(n) substrings.
-3. Counting the ones in each substring takes O(n).
-
-Therefore: O(n^3)
-
-Space Complexity: O(n)
-
-Due to the substring objects created while checking candidate substrings.
-
----------------------------------------------------------
-
-Key Observation:
-
-A beautiful substring must contain exactly k ones.
-For the sliding-window solution, once the window contains k ones, leading zeroes can always be removed because they do not affect the number of ones.
-Therefore, every candidate can be reduced to its shortest valid form.
-For equal-length candidates, String.compareTo() selects the lexicographically smallest substring.
-
----------------------------------------------------------
-*/
