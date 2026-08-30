@@ -8,20 +8,19 @@ public class LeetCode_3718_SmallestMissingMultipleOfK {
         int[] nums = {2, 3, 6, 10, 12};
         int k = 2;
 
-        System.out.println(new Solution().missingMultiple(nums, k));
-        System.out.println(new Solution2().missingMultiple(nums, k));
-        System.out.println(new Solution3().missingMultiple(nums, k));
-        System.out.println(new Solution4().missingMultiple(nums, k));
+        LeetCode_3718_SmallestMissingMultipleOfK solution = new LeetCode_3718_SmallestMissingMultipleOfK();
+
+        System.out.println(solution.missingMultipleHashSet(nums, k));
+        System.out.println(solution.missingMultipleBooleanArray(nums, k));
+        System.out.println(solution.missingMultipleBruteForce(nums, k));
+        System.out.println(solution.missingMultipleUsingMultipliers(nums, k));
     }
-}
 
-/*
-    Approach 1: HashSet : Store all elements in a HashSet for O(1) average lookup.
-    Starting from k, keep checking multiples of k until a multiple is not present in the set.
- */
-class Solution {
-
-    public int missingMultiple(int[] nums, int k) {
+    /*
+        Approach 1: HashSet : Store all elements in a HashSet for O(1) average lookup.
+        Starting from k, keep checking multiples of k until a multiple is not present in the set.
+     */
+    public int missingMultipleHashSet(int[] nums, int k) {
 
         // Store all numbers for constant-time lookup.
         Set<Integer> seen = new HashSet<>();
@@ -38,19 +37,16 @@ class Solution {
 
         return cur;
     }
-}
 
-/*
----------------------------------------------------------
-Approach 2: Boolean Array
+    /*
+    ---------------------------------------------------------
+    Approach 2: Boolean Array
 
-    Since the required values are bounded, a boolean array can be used to track which numbers are present.
-    present[x] == true means x exists in nums.
-    Then check k, 2k, 3k, ... until a missing multiple is found.
- */
-class Solution2 {
-
-    public int missingMultiple(int[] nums, int k) {
+        Since the required values are bounded, a boolean array can be used to track which numbers are present.
+        present[x] == true means x exists in nums.
+        Then check k, 2k, 3k, ... until a missing multiple is found.
+     */
+    public int missingMultipleBooleanArray(int[] nums, int k) {
 
         // Track whether each value up to 100 is present.
         boolean[] present = new boolean[101];
@@ -71,18 +67,15 @@ class Solution2 {
 
         }
     }
-}
 
-/*
----------------------------------------------------------
-Approach 3: Brute Force
+    /*
+    ---------------------------------------------------------
+    Approach 3: Brute Force
 
-    For every multiple of k, scan the entire nums array to determine whether that multiple exists.
-    This approach does not use any additional data structure.
- */
-class Solution3 {
-
-    public int missingMultiple(int[] nums, int k) {
+        For every multiple of k, scan the entire nums array to determine whether that multiple exists.
+        This approach does not use any additional data structure.
+     */
+    public int missingMultipleBruteForce(int[] nums, int k) {
 
         // Start with the first positive multiple of k.
         for (int multiple = k; ; multiple += k) {
@@ -103,25 +96,22 @@ class Solution3 {
                 return multiple;
         }
     }
-}
 
-/*
----------------------------------------------------------
-Approach 4: Boolean Array Using Multiples of K
+    /*
+    ---------------------------------------------------------
+    Approach 4: Boolean Array Using Multiples of K
 
-    Instead of storing the actual values, store the multiplier of k.
+        Instead of storing the actual values, store the multiplier of k.
 
-    For example, if k = 3:
+        For example, if k = 3:
 
-        3  -> index 1
-        6  -> index 2
-        9  -> index 3
+            3  -> index 1
+            6  -> index 2
+            9  -> index 3
 
-    present[num / k] tells us whether that multiple of k exists.
- */
-class Solution4 {
-
-    public int missingMultiple(int[] nums, int k) {
+        present[num / k] tells us whether that multiple of k exists.
+     */
+    public int missingMultipleUsingMultipliers(int[] nums, int k) {
 
         // present[i] represents whether i * k exists.
         boolean[] present = new boolean[101];
