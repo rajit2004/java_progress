@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **215** problems solved in Java — auto-updated on every push.
-> Last updated: 04 Sep 2026, 12:36 UTC
+> All **216** problems solved in Java — auto-updated on every push.
+> Last updated: 05 Sep 2026, 17:38 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 120 | 71 | 24 | 215 |
+| 120 | 72 | 24 | 216 |
 
 ---
 
@@ -224,6 +224,7 @@
 | 3875 | [Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/) | 🟢 Easy | `Maths` | 2026-09-03 |
 | 3876 | [Construct Uniform Parity Array II](https://leetcode.com/problems/construct-uniform-parity-array-ii/) | 🟡 Medium | `Maths` | 2026-09-03 |
 | 3903 | [Smallest Stable Index I](https://leetcode.com/problems/smallest-stable-index-i/) | 🟢 Easy | `Arrays` | 2026-09-04 |
+| 3904 | [Smallest Stable Index II](https://leetcode.com/problems/smallest-stable-index-ii/) | 🟡 Medium | `Arrays` | 2026-09-05 |
 | 3941 | [Password Strength](https://leetcode.com/problems/password-strength/) | 🟡 Medium | `Strings` | 2026-06-02 |
 | 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | `Numbers` | 2026-06-04 |
 | 3950 | [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/) | 🟢 Easy | `Numbers` | 2026-06-07 |
