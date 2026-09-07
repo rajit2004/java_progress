@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **217** problems solved in Java — auto-updated on every push.
-> Last updated: 07 Sep 2026, 16:44 UTC
+> All **218** problems solved in Java — auto-updated on every push.
+> Last updated: 07 Sep 2026, 16:48 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 120 | 72 | 25 | 217 |
+| 120 | 72 | 26 | 218 |
 
 ---
 
@@ -102,6 +102,7 @@
 | 796 | [Rotate String](https://leetcode.com/problems/rotate-string/) | 🟢 Easy | `Strings` | 2026-05-03 |
 | 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | 🟡 Medium | `BinarySearch` | 2026-04-03 |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium | `DynamicProgramming` | 2026-08-03 |
+| 940 | [Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/) | 🔴 Hard | `Strings` | 2026-09-07 |
 | 976 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | 🟢 Easy | `Arrays` | 2026-05-30 |
 | 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | 🟢 Easy | `Arrays` | 2026-05-29 |
 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | 🟢 Easy | `Arrays` | 2026-06-03 |
