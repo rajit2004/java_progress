@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **216** problems solved in Java — auto-updated on every push.
-> Last updated: 05 Sep 2026, 17:38 UTC
+> All **217** problems solved in Java — auto-updated on every push.
+> Last updated: 07 Sep 2026, 16:44 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 120 | 72 | 24 | 216 |
+| 120 | 72 | 25 | 217 |
 
 ---
 
@@ -41,6 +41,7 @@
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | 🟡 Medium | `Arrays` | 2026-04-27 |
 | 81 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | 🟡 Medium | `BinarySearch` | 2026-04-06 |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | 🟢 Easy | `Strings` | 2026-05-07 |
+| 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | 🔴 Hard | `DynamicProgramming` | 2026-09-07 |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | 🟢 Easy | `Arrays` | 2026-05-15 |
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | 🟢 Easy | `DynamicProgramming` | 2026-06-10 |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy | `Arrays` | 2026-06-04 |
