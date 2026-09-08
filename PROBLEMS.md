@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **218** problems solved in Java — auto-updated on every push.
-> Last updated: 07 Sep 2026, 16:48 UTC
+> All **219** problems solved in Java — auto-updated on every push.
+> Last updated: 08 Sep 2026, 16:53 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 120 | 72 | 26 | 218 |
+| 121 | 72 | 26 | 219 |
 
 ---
 
@@ -223,6 +223,7 @@
 | 3783 | [Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/) | 🟢 Easy | `Strings` | 2026-04-17 |
 | 3838 | [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | 🟢 Easy | `Strings` | 2026-06-13 |
 | 3867 | [Sum of GCD of Formed Pairs](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | 🟡 Medium | `Numbers` | 2026-07-16 |
+| 3870 | [Count Commas in Range](https://leetcode.com/problems/count-commas-in-range/) | 🟢 Easy | `Maths` | 2026-09-08 |
 | 3875 | [Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/) | 🟢 Easy | `Maths` | 2026-09-03 |
 | 3876 | [Construct Uniform Parity Array II](https://leetcode.com/problems/construct-uniform-parity-array-ii/) | 🟡 Medium | `Maths` | 2026-09-03 |
 | 3903 | [Smallest Stable Index I](https://leetcode.com/problems/smallest-stable-index-i/) | 🟢 Easy | `Arrays` | 2026-09-04 |
