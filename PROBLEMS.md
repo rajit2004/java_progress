@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **226** problems solved in Java — auto-updated on every push.
-> Last updated: 17 Sep 2026, 16:47 UTC
+> All **227** problems solved in Java — auto-updated on every push.
+> Last updated: 17 Sep 2026, 16:49 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 123 | 75 | 28 | 226 |
+| 123 | 76 | 28 | 227 |
 
 ---
 
@@ -133,6 +133,7 @@
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | 🟢 Easy | `PrefixSum` | 2026-08-19 |
 | 1510 | [Stone Game IV](https://leetcode.com/problems/stone-game-iv/) | 🔴 Hard | `DynamicProgramming` | 2026-08-10 |
 | 1563 | [Stone Game V](https://leetcode.com/problems/stone-game-v/) | 🔴 Hard | `DynamicProgramming` | 2026-08-17 |
+| 1621 | [Number of Sets of K Non-Overlapping Line Segments](https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/) | 🟡 Medium | `PrefixSum` | 2026-09-17 |
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | 🟢 Easy | `Strings` | 2026-05-21 |
 | 1665 | [Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/) | 🔴 Hard | `Greedy` | 2026-05-12 |
 | 1668 | [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/) | 🟢 Easy | `Strings` | 2026-05-24 |
