@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **228** problems solved in Java — auto-updated on every push.
-> Last updated: 17 Sep 2026, 16:52 UTC
+> All **229** problems solved in Java — auto-updated on every push.
+> Last updated: 17 Sep 2026, 16:56 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 123 | 77 | 28 | 228 |
+| 123 | 78 | 28 | 229 |
 
 ---
 
@@ -131,6 +131,7 @@
 | 1406 | [Stone Game III](https://leetcode.com/problems/stone-game-iii/) | 🔴 Hard | `DynamicProgramming` | 2026-08-03 |
 | 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) | 🟢 Easy | `Strings` | 2026-08-15 |
 | 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | 🟢 Easy | `Arrays` | 2026-07-31 |
+| 1477 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/) | 🟡 Medium | `DynamicProgramming` | 2026-09-17 |
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | 🟢 Easy | `PrefixSum` | 2026-08-19 |
 | 1510 | [Stone Game IV](https://leetcode.com/problems/stone-game-iv/) | 🔴 Hard | `DynamicProgramming` | 2026-08-10 |
 | 1563 | [Stone Game V](https://leetcode.com/problems/stone-game-v/) | 🔴 Hard | `DynamicProgramming` | 2026-08-17 |
