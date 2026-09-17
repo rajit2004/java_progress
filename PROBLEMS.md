@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **227** problems solved in Java — auto-updated on every push.
-> Last updated: 17 Sep 2026, 16:49 UTC
+> All **228** problems solved in Java — auto-updated on every push.
+> Last updated: 17 Sep 2026, 16:52 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 123 | 76 | 28 | 227 |
+| 123 | 77 | 28 | 228 |
 
 ---
 
@@ -20,6 +20,7 @@
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 Medium | `SlidingWindow` | 2026-05-01 |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 Medium | `Strings` | 2026-05-08 |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | `Strings` | 2026-04-12 |
+| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium | `Greedy` | 2026-09-17 |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | 🟢 Easy | `Strings` | 2026-05-01 |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 Easy | `Strings` | 2026-04-29 |
 | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | 🟡 Medium | `Strings` | 2026-07-04 |
