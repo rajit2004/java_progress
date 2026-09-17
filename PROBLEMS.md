@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **221** problems solved in Java — auto-updated on every push.
-> Last updated: 17 Sep 2026, 16:26 UTC
+> All **222** problems solved in Java — auto-updated on every push.
+> Last updated: 17 Sep 2026, 16:30 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 121 | 74 | 26 | 221 |
+| 122 | 74 | 26 | 222 |
 
 ---
 
@@ -190,6 +190,7 @@
 | 3360 | [Stone Removal Game](https://leetcode.com/problems/stone-removal-game/) | 🟢 Easy | `Maths` | 2026-08-09 |
 | 3411 | [Maximum Subarray With Equal Products](https://leetcode.com/problems/maximum-subarray-with-equal-products/) | 🟢 Easy | `SlidingWindow` | 2026-07-14 |
 | 3471 | [Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer/) | 🟢 Easy | `Arrays` | 2026-08-18 |
+| 3483 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | 🟢 Easy | `Arrays` | 2026-09-17 |
 | 3499 | [Maximize Active Section with Trade I](https://leetcode.com/problems/maximize-active-section-with-trade-i/) | 🟡 Medium | `Strings` | 2026-07-21 |
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | `BitManipulation` | 2026-07-23 |
 | 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🟡 Medium | `BitManipulation` | 2026-07-24 |
