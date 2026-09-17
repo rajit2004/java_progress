@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **219** problems solved in Java — auto-updated on every push.
-> Last updated: 08 Sep 2026, 16:53 UTC
+> All **220** problems solved in Java — auto-updated on every push.
+> Last updated: 17 Sep 2026, 16:21 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 121 | 72 | 26 | 219 |
+| 121 | 73 | 26 | 220 |
 
 ---
 
@@ -224,6 +224,7 @@
 | 3838 | [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | 🟢 Easy | `Strings` | 2026-06-13 |
 | 3867 | [Sum of GCD of Formed Pairs](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | 🟡 Medium | `Numbers` | 2026-07-16 |
 | 3870 | [Count Commas in Range](https://leetcode.com/problems/count-commas-in-range/) | 🟢 Easy | `Maths` | 2026-09-08 |
+| 3871 | [Count Commas in Range II](https://leetcode.com/problems/count-commas-in-range-ii/) | 🟡 Medium | `Maths` | 2026-09-17 |
 | 3875 | [Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/) | 🟢 Easy | `Maths` | 2026-09-03 |
 | 3876 | [Construct Uniform Parity Array II](https://leetcode.com/problems/construct-uniform-parity-array-ii/) | 🟡 Medium | `Maths` | 2026-09-03 |
 | 3903 | [Smallest Stable Index I](https://leetcode.com/problems/smallest-stable-index-i/) | 🟢 Easy | `Arrays` | 2026-09-04 |
