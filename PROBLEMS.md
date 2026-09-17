@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **223** problems solved in Java — auto-updated on every push.
-> Last updated: 17 Sep 2026, 16:35 UTC
+> All **224** problems solved in Java — auto-updated on every push.
+> Last updated: 17 Sep 2026, 16:39 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 122 | 74 | 27 | 223 |
+| 122 | 75 | 27 | 224 |
 
 ---
 
@@ -100,6 +100,7 @@
 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | 🟢 Easy | `PrefixSum` | 2026-06-07 |
 | 744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | 🟢 Easy | `BinarySearch` | 2026-04-02 |
 | 796 | [Rotate String](https://leetcode.com/problems/rotate-string/) | 🟢 Easy | `Strings` | 2026-05-03 |
+| 835 | [Image Overlap](https://leetcode.com/problems/image-overlap/) | 🟡 Medium | `Arrays` | 2026-09-17 |
 | 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | 🟡 Medium | `BinarySearch` | 2026-04-03 |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium | `DynamicProgramming` | 2026-08-03 |
 | 940 | [Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/) | 🔴 Hard | `Strings` | 2026-09-07 |
