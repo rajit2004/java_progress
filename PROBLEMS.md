@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **220** problems solved in Java — auto-updated on every push.
-> Last updated: 17 Sep 2026, 16:21 UTC
+> All **221** problems solved in Java — auto-updated on every push.
+> Last updated: 17 Sep 2026, 16:26 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 121 | 73 | 26 | 220 |
+| 121 | 74 | 26 | 221 |
 
 ---
 
@@ -157,6 +157,7 @@
 | 2144 | [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | 🟢 Easy | `Greedy` | 2026-06-01 |
 | 2161 | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | 🟡 Medium | `Arrays` | 2026-06-08 |
 | 2196 | [Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/) | 🟡 Medium | `Tree` | 2026-06-07 |
+| 2265 | [Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/) | 🟡 Medium | `Tree` | 2026-09-17 |
 | 2287 | [Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/) | 🟢 Easy | `Strings` | 2026-06-22 |
 | 2299 | [Strong Password Checker II](https://leetcode.com/problems/strong-password-checker-ii/) | 🟢 Easy | `Strings` | 2026-06-02 |
 | 2413 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | 🟢 Easy | `Numbers` | 2026-07-14 |
