@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **225** problems solved in Java — auto-updated on every push.
-> Last updated: 17 Sep 2026, 16:41 UTC
+> All **226** problems solved in Java — auto-updated on every push.
+> Last updated: 17 Sep 2026, 16:47 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 123 | 75 | 27 | 225 |
+| 123 | 75 | 28 | 226 |
 
 ---
 
@@ -164,6 +164,7 @@
 | 2299 | [Strong Password Checker II](https://leetcode.com/problems/strong-password-checker-ii/) | 🟢 Easy | `Strings` | 2026-06-02 |
 | 2413 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | 🟢 Easy | `Numbers` | 2026-07-14 |
 | 2450 | [Number of Distinct Binary Strings After Applying Operations](https://leetcode.com/problems/number-of-distinct-binary-strings-after-applying-operations/) | 🟡 Medium | `Arrays` | 2026-05-20 |
+| 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/) | 🔴 Hard | `TwoPointers` | 2026-09-17 |
 | 2492 | [Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | 🟡 Medium | `Graphs` | 2026-07-06 |
 | 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/) | 🟢 Easy | `Arrays` | 2026-05-11 |
 | 2656 | [Maximum Sum With Exactly K Elements ](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/) | 🟢 Easy | `Greedy` | 2026-08-20 |
