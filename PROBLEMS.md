@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **229** problems solved in Java — auto-updated on every push.
-> Last updated: 17 Sep 2026, 16:56 UTC
+> All **230** problems solved in Java — auto-updated on every push.
+> Last updated: 18 Sep 2026, 17:07 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 123 | 78 | 28 | 229 |
+| 123 | 78 | 29 | 230 |
 
 ---
 
@@ -134,6 +134,7 @@
 | 1477 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/) | 🟡 Medium | `DynamicProgramming` | 2026-09-17 |
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | 🟢 Easy | `PrefixSum` | 2026-08-19 |
 | 1510 | [Stone Game IV](https://leetcode.com/problems/stone-game-iv/) | 🔴 Hard | `DynamicProgramming` | 2026-08-10 |
+| 1520 | [Maximum Number of Non-Overlapping Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/) | 🔴 Hard | `Strings` | 2026-09-18 |
 | 1563 | [Stone Game V](https://leetcode.com/problems/stone-game-v/) | 🔴 Hard | `DynamicProgramming` | 2026-08-17 |
 | 1621 | [Number of Sets of K Non-Overlapping Line Segments](https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/) | 🟡 Medium | `PrefixSum` | 2026-09-17 |
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | 🟢 Easy | `Strings` | 2026-05-21 |
