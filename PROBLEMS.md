@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **231** problems solved in Java — auto-updated on every push.
-> Last updated: 19 Sep 2026, 17:10 UTC
+> All **232** problems solved in Java — auto-updated on every push.
+> Last updated: 20 Sep 2026, 17:15 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 123 | 79 | 29 | 231 |
+| 123 | 79 | 30 | 232 |
 
 ---
 
@@ -242,6 +242,7 @@
 | 3904 | [Smallest Stable Index II](https://leetcode.com/problems/smallest-stable-index-ii/) | 🟡 Medium | `Arrays` | 2026-09-05 |
 | 3941 | [Password Strength](https://leetcode.com/problems/password-strength/) | 🟡 Medium | `Strings` | 2026-06-02 |
 | 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | `Numbers` | 2026-06-04 |
+| 3948 | [Lexicographically Maximum MEX Array](https://leetcode.com/problems/lexicographically-maximum-mex-array/) | 🔴 Hard | `Strings` | 2026-09-20 |
 | 3950 | [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/) | 🟢 Easy | `Numbers` | 2026-06-07 |
 | 3951 | [Minimum Energy to Maintain Brightness](https://leetcode.com/problems/minimum-energy-to-maintain-brightness/) | 🟡 Medium | `Greedy` | 2026-06-07 |
 | 3954 | [Sum of Compatible Numbers in Range I](https://leetcode.com/problems/sum-of-compatible-numbers-in-range-i/) | 🟢 Easy | `Numbers` | 2026-06-07 |
