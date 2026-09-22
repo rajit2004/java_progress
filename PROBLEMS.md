@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **233** problems solved in Java — auto-updated on every push.
-> Last updated: 21 Sep 2026, 16:27 UTC
+> All **234** problems solved in Java — auto-updated on every push.
+> Last updated: 22 Sep 2026, 17:57 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 123 | 80 | 30 | 233 |
+| 123 | 80 | 31 | 234 |
 
 ---
 
@@ -206,6 +206,7 @@
 | 3517 | [Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) | 🟡 Medium | `Strings` | 2026-07-31 |
 | 3518 | [Smallest Palindromic Rearrangement II](https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/) | 🔴 Hard | `Strings` | 2026-07-31 |
 | 3524 | [Find X Value of Array I](https://leetcode.com/problems/find-x-value-of-array-i/) | 🟡 Medium | `DynamicProgramming` | 2026-09-21 |
+| 3525 | [Find X Value of Array II](https://leetcode.com/problems/find-x-value-of-array-ii/) | 🔴 Hard | `Arrays` | 2026-09-22 |
 | 3532 | [Path Existence Queries in a Graph I](https://leetcode.com/problems/path-existence-queries-in-a-graph-i/) | 🟡 Medium | `Graphs` | 2026-07-14 |
 | 3534 | [Path Existence Queries in a Graph II](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/) | 🔴 Hard | `Graphs` | 2026-07-14 |
 | 3536 | [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/) | 🟢 Easy | `Maths` | 2026-07-25 |
