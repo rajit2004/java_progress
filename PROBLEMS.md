@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **235** problems solved in Java — auto-updated on every push.
-> Last updated: 23 Sep 2026, 15:52 UTC
+> All **236** problems solved in Java — auto-updated on every push.
+> Last updated: 24 Sep 2026, 15:59 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 123 | 81 | 31 | 235 |
+| 124 | 81 | 31 | 236 |
 
 ---
 
@@ -211,6 +211,7 @@
 | 3532 | [Path Existence Queries in a Graph I](https://leetcode.com/problems/path-existence-queries-in-a-graph-i/) | 🟡 Medium | `Graphs` | 2026-07-14 |
 | 3534 | [Path Existence Queries in a Graph II](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/) | 🔴 Hard | `Graphs` | 2026-07-14 |
 | 3536 | [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/) | 🟢 Easy | `Maths` | 2026-07-25 |
+| 3550 | [Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | 🟢 Easy | `Arrays` | 2026-09-24 |
 | 3558 | [Number of Ways to Assign Edge Weights I](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/) | 🟡 Medium | `Tree` | 2026-06-12 |
 | 3568 | [Minimum Moves to Clean the Classroom](https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/) | 🟡 Medium | `BitManipulation` | 2026-09-03 |
 | 3612 | [Process String with Special Operations I](https://leetcode.com/problems/process-string-with-special-operations-i/) | 🟡 Medium | `Strings` | 2026-06-16 |
