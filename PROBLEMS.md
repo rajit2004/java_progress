@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **236** problems solved in Java — auto-updated on every push.
-> Last updated: 24 Sep 2026, 15:59 UTC
+> All **237** problems solved in Java — auto-updated on every push.
+> Last updated: 25 Sep 2026, 17:11 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 124 | 81 | 31 | 236 |
+| 124 | 81 | 32 | 237 |
 
 ---
 
@@ -112,6 +112,7 @@
 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | 🟢 Easy | `Strings` | 2026-07-14 |
 | 1081 | [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | 🟡 Medium | `Greedy` | 2026-07-19 |
 | 1095 | [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/) | 🔴 Hard | `BinarySearch` | 2026-04-04 |
+| 1096 | [Brace Expansion II](https://leetcode.com/problems/brace-expansion-ii/) | 🔴 Hard | `Strings` | 2026-09-25 |
 | 1140 | [Stone Game II](https://leetcode.com/problems/stone-game-ii/) | 🟡 Medium | `DynamicProgramming` | 2026-08-09 |
 | 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | 🟢 Easy | `Strings` | 2026-06-22 |
 | 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 Easy | `Arrays` | 2026-07-20 |
