@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **237** problems solved in Java — auto-updated on every push.
-> Last updated: 25 Sep 2026, 17:11 UTC
+> All **238** problems solved in Java — auto-updated on every push.
+> Last updated: 26 Sep 2026, 17:51 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 124 | 81 | 32 | 237 |
+| 124 | 82 | 32 | 238 |
 
 ---
 
@@ -146,6 +146,7 @@
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | 🟢 Easy | `Misc` | 2026-03-26 |
 | 1732 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | 🟢 Easy | `PrefixSum` | 2026-06-19 |
 | 1752 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | 🟢 Easy | `Arrays` | 2026-05-23 |
+| 1807 | [Evaluate the Bracket Pairs of a String](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/) | 🟡 Medium | `Arrays` | 2026-09-26 |
 | 1833 | [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/) | 🟡 Medium | `Arrays` | 2026-06-23 |
 | 1840 | [Maximum Building Height](https://leetcode.com/problems/maximum-building-height/) | 🔴 Hard | `Arrays` | 2026-06-20 |
 | 1846 | [Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/) | 🟡 Medium | `Greedy` | 2026-06-29 |
