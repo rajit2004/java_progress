@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **238** problems solved in Java — auto-updated on every push.
-> Last updated: 26 Sep 2026, 17:51 UTC
+> All **239** problems solved in Java — auto-updated on every push.
+> Last updated: 27 Sep 2026, 17:45 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 124 | 82 | 32 | 238 |
+| 124 | 83 | 32 | 239 |
 
 ---
 
@@ -115,6 +115,7 @@
 | 1096 | [Brace Expansion II](https://leetcode.com/problems/brace-expansion-ii/) | 🔴 Hard | `Strings` | 2026-09-25 |
 | 1140 | [Stone Game II](https://leetcode.com/problems/stone-game-ii/) | 🟡 Medium | `DynamicProgramming` | 2026-08-09 |
 | 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | 🟢 Easy | `Strings` | 2026-06-22 |
+| 1190 | [Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) | 🟡 Medium | `Strings` | 2026-09-27 |
 | 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 Easy | `Arrays` | 2026-07-20 |
 | 1288 | [Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/) | 🟡 Medium | `Arrays` | 2026-07-06 |
 | 1291 | [Sequential Digits](https://leetcode.com/problems/sequential-digits/) | 🟡 Medium | `Enum` | 2026-07-14 |
