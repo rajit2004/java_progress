@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **251** problems solved in Java — auto-updated on every push.
-> Last updated: 10 Oct 2026, 17:10 UTC
+> All **252** problems solved in Java — auto-updated on every push.
+> Last updated: 11 Oct 2026, 18:03 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 127 | 89 | 35 | 251 |
+| 128 | 89 | 35 | 252 |
 
 ---
 
@@ -192,6 +192,7 @@
 | 2670 | [Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/) | 🟢 Easy | `Arrays` | 2026-06-07 |
 | 2685 | [Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/) | 🟡 Medium | `Graphs` | 2026-07-14 |
 | 2754 | [Bind Function to Context](https://leetcode.com/problems/bind-function-to-context/) | 🟡 Medium | `PrefixSum` | 2026-06-07 |
+| 2778 | [Sum of Squares of Special Elements ](https://leetcode.com/problems/sum-of-squares-of-special-elements/) | 🟢 Easy | `Arrays` | 2026-10-11 |
 | 2784 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/) | 🟢 Easy | `Arrays` | 2026-05-20 |
 | 2812 | [Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/) | 🟡 Medium | `Arrays` | 2026-07-01 |
 | 2904 | [Shortest and Lexicographically Smallest Beautiful String](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | 🟡 Medium | `Strings` | 2026-08-26 |
