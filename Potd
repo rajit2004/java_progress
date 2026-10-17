@@ -29,19 +29,28 @@ class Solution {
             targetPos[indices[pos]] = pos;
         }
 
-        boolean[] visited = new boolean[n];
-        int cycles = 0;
+        int[] parent = new int[n];
         for (int i = 0; i < n; i++) {
-            if (!visited[i]) {
-                cycles++;
-                int j = i;
-                while (!visited[j]) {
-                    visited[j] = true;
-                    j = targetPos[j];
-                }
+            parent[i] = i;
+        }
+        int components = n;
+
+        for (int i = 0; i < n; i++) {
+            int ri = find(parent, i);
+            int rj = find(parent, targetPos[i]);
+            if (ri != rj) {
+                parent[ri] = rj;
+                components--;
             }
         }
 
-        return n - cycles;
+        return n - components;
+    }
+
+    private int find(int[] parent, int x) {
+        if (parent[x] != x) {
+            parent[x] = find(parent, parent[x]);
+        }
+        return parent[x];
     }
 }
