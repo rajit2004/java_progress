@@ -1,71 +1,47 @@
-class BIT {
-
-    int size;
-    long[] _tree1;
-    long[] _tree2;
-
-    public BIT(int n) {
-        this.size = n;
-        this._tree1 = new long[n + 2];
-        this._tree2 = new long[n + 2];
-    }
-
-    private int _lowbit(int index) {
-        return index & -index;
-    }
-
-    public void add(int left, int right, int delta) {
-        _add(left, delta);
-        _add(right + 1, -delta);
-    }
-
-    public long query(int left, int right) {
-        return _query(right) - _query(left - 1);
-    }
-
-    private void _add(int index, int delta) {
-        index += 1;
-        long rawIndex = index;
-        while (index <= size) {
-            _tree1[index] += delta;
-            _tree2[index] += rawIndex * delta;
-            index += _lowbit(index);
-        }
-    }
-
-    private long _query(int index) {
-        index += 1;
-        long rawIndex = index + 1;
-        if (index > size) {
-            index = size;
-        }
-        long res = 0;
-        while (index > 0) {
-            res += rawIndex * _tree1[index] - _tree2[index];
-            index -= _lowbit(index);
-        }
-        return res;
-    }
-}
-
 class Solution {
 
-    public int sumCounts(int[] A) {
-        int n = A.length;
-        long res = 0,
-            cur = 0;
-        BIT bit = new BIT(n + 10);
-        Map<Integer, Integer> seen = new HashMap<>();
-        long mod = 1000000007;
+    public int minSwaps(int[] nums) {
+        int n = nums.length;
+        int[] digitSum = new int[n];
         for (int i = 0; i < n; i++) {
-            int a = A[i];
-            int j = seen.getOrDefault(a, -1) + 1;
-            long q = bit.query(j, i);
-            cur = (cur + q * 2 + i - j + 1) % mod;
-            res = (res + cur) % mod;
-            bit.add(j, i, 1);
-            seen.put(a, i);
+            int x = nums[i],
+                sum = 0;
+            while (x > 0) {
+                sum += x % 10;
+                x /= 10;
+            }
+            digitSum[i] = sum;
         }
-        return (int) res;
+
+        Integer[] indices = new Integer[n];
+        for (int i = 0; i < n; i++) {
+            indices[i] = i;
+        }
+        Arrays.sort(indices, (a, b) -> {
+            if (digitSum[a] != digitSum[b]) {
+                return Integer.compare(digitSum[a], digitSum[b]);
+            }
+            return Integer.compare(nums[a], nums[b]);
+        });
+
+        int[] targetPos = new int[n];
+        for (int pos = 0; pos < n; pos++) {
+            targetPos[indices[pos]] = pos;
+        }
+
+        boolean[] visited = new boolean[n];
+        int cycles = 0;
+        for (int i = 0; i < n; i++) {
+            if (!visited[i]) {
+                cycles++;
+                int j = i;
+                while (!visited[j]) {
+                    visited[j] = true;
+                    j = targetPos[j];
+                }
+            }
+        }
+
+        return n - cycles;
     }
 }
