@@ -1,31 +1,38 @@
 class Solution {
 
-    public int minOperations(String s) {
-        int n = s.length();
-        char mx = 'a',
-            mn = 'z';
-        boolean sorted = true;
-        for (int i = 0; i < n; i++) {
-            mx = (char) Math.max(mx, s.charAt(i));
-            mn = (char) Math.min(mn, s.charAt(i));
-            if (i > 0 && s.charAt(i - 1) > s.charAt(i)) {
-                sorted = false;
-            }
-        }
-        if (sorted) {
+    public int minOperations(int[] nums) {
+        final int n = nums.length;
+        if (n == 1) {
             return 0;
         }
-        if (n == 2) {
-            return -1;
+
+        int start = 0;
+        while (nums[start] != 0) {
+            start++;
         }
-        if (s.charAt(0) == mn || s.charAt(n - 1) == mx) {
-            return 1;
-        }
-        for (int i = 1; i < n - 1; i++) {
-            if (s.charAt(i) == mn || s.charAt(i) == mx) {
-                return 2;
+
+        boolean asc = true;
+        boolean desc = true;
+
+        for (int i = 1; i < n; i++) {
+            final int value = nums[(start + i) % n];
+
+            if (value != i) {
+                asc = false;
+            }
+            if (value != n - i) {
+                desc = false;
+            }
+
+            if (!asc && !desc) {
+                return -1;
             }
         }
-        return 3;
+
+        if (asc) {
+            return Math.min(start, n - start + 2);
+        }
+
+        return Math.min(n - start, start + 2);
     }
 }
