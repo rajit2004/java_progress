@@ -1,48 +1,109 @@
-
 class Solution {
     public int closedIsland(int[][] grid) {
         int m = grid.length;
         int n = grid[0].length;
-        boolean[][] visit = new boolean[m][n];
-        int count = 0;
+
+        int lands = 0;
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                if (grid[i][j] == 0 && !visit[i][j]) {
-                    if (dfs(i, j, m, n, grid, visit)) {
-                        count++;
+                if (grid[i][j] == 0) {
+                    lands++;
+                }
+            }
+        }
+
+        UnionFind uf = new UnionFind(m * n, lands);
+
+        for (int i = 0; i < m; i++) {
+            if (grid[i][0] == 0) {
+                uf.initEdge(i * n);
+            }
+            if (grid[i][n - 1] == 0) {
+                uf.initEdge(i * n + n - 1);
+            }
+        }
+
+        for (int j = 1; j < n - 1; j++) {
+            if (grid[0][j] == 0) {
+                uf.initEdge(j);
+            }
+            if (grid[m - 1][j] == 0) {
+                uf.initEdge((m - 1) * n + j);
+            }
+        }
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (grid[i][j] == 0) {
+                    if (i > 0 && grid[i - 1][j] == 0) {
+                        uf.union(i * n + j, (i - 1) * n + j);
+                    }
+
+                    if (j > 0 && grid[i][j - 1] == 0) {
+                        uf.union(i * n + j, i * n + j - 1);
                     }
                 }
             }
         }
-        return count;
+
+        return uf.getCount();
     }
 
-    public boolean dfs(int x, int y, int m, int n,
-                       int[][] grid, boolean[][] visit) {
-        if (x < 0 || x >= m || y < 0 || y >= n) {
-            return false;
+    class UnionFind {
+        private int[] parent;
+        private int[] rank;
+        private boolean[] onEdge;
+        private int count;
+
+        public UnionFind(int n, int count) {
+            parent = new int[n];
+            for (int i = 0; i < n; i++) {
+                parent[i] = i;
+            }
+
+            rank = new int[n];
+            onEdge = new boolean[n];
+            this.count = count;
         }
 
-        if (grid[x][y] == 1 || visit[x][y]) {
-            return true;
-        }
-
-        visit[x][y] = true;
-        boolean isClosed = true;
-
-        int[] dirx = {0, 1, 0, -1};
-        int[] diry = {-1, 0, 1, 0};
-
-        for (int i = 0; i < 4; i++) {
-            int r = x + dirx[i];
-            int c = y + diry[i];
-
-            if (!dfs(r, c, m, n, grid, visit)) {
-                isClosed = false;
+        public void initEdge(int x) {
+            if (!onEdge[x]) {
+                parent[x] = 0;
+                onEdge[x] = true;
+                count--;
             }
         }
 
-        return isClosed;
+        public void union(int x, int y) {
+            int rootx = find(x);
+            int rooty = find(y);
+
+            if (rootx != rooty) {
+                if (rank[rootx] > rank[rooty]) {
+                    parent[rooty] = rootx;
+                    onEdge[rootx] |= onEdge[rooty];
+                } else if (rank[rootx] < rank[rooty]) {
+                    parent[rootx] = rooty;
+                    onEdge[rooty] |= onEdge[rootx];
+                } else {
+                    parent[rooty] = rootx;
+                    onEdge[rootx] |= onEdge[rooty];
+                    rank[rootx]++;
+                }
+                count--;
+            }
+        }
+
+        public int find(int x) {
+            if (parent[x] != x) {
+                parent[x] = find(parent[x]);
+            }
+            return parent[x];
+        }
+
+        public int getCount() {
+            return count;
+        }
     }
 }
