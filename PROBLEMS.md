@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **259** problems solved in Java — auto-updated on every push.
-> Last updated: 29 Oct 2026, 16:09 UTC
+> All **261** problems solved in Java — auto-updated on every push.
+> Last updated: 30 Oct 2026, 17:12 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 129 | 92 | 38 | 259 |
+| 131 | 92 | 38 | 261 |
 
 ---
 
@@ -42,6 +42,7 @@
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | 🟡 Medium | `Arrays` | 2026-04-24 |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | 🟡 Medium | `Arrays` | 2026-04-27 |
 | 81 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | 🟡 Medium | `BinarySearch` | 2026-04-06 |
+| 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | 🟢 Easy | `LinkedList` | 2026-10-30 |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | 🟢 Easy | `Strings` | 2026-05-07 |
 | 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | 🔴 Hard | `DynamicProgramming` | 2026-09-07 |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | 🟢 Easy | `Arrays` | 2026-05-15 |
@@ -170,6 +171,7 @@
 | 1991 | [Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/) | 🟢 Easy | `PrefixSum` | 2026-06-07 |
 | 2029 | [Stone Game IX](https://leetcode.com/problems/stone-game-ix/) | 🟡 Medium | `Arrays` | 2026-08-17 |
 | 2058 | [Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | 🟡 Medium | `LinkedList` | 2026-09-03 |
+| 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 Easy | `Arrays` | 2026-10-29 |
 | 2091 | [Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/) | 🟡 Medium | `Arrays` | 2026-08-30 |
 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | 🟡 Medium | `LinkedList` | 2026-06-15 |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | 🟢 Easy | `Strings` | 2026-04-16 |
