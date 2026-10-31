@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **261** problems solved in Java — auto-updated on every push.
-> Last updated: 30 Oct 2026, 17:12 UTC
+> All **262** problems solved in Java — auto-updated on every push.
+> Last updated: 31 Oct 2026, 17:08 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 131 | 92 | 38 | 261 |
+| 131 | 93 | 38 | 262 |
 
 ---
 
@@ -244,6 +244,7 @@
 | 3636 | [Threshold Majority Queries](https://leetcode.com/problems/threshold-majority-queries/) | 🔴 Hard | `Arrays` | 2026-06-03 |
 | 3658 | [GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) | 🟢 Easy | `Numbers` | 2026-07-15 |
 | 3662 | [Filter Characters by Frequency](https://leetcode.com/problems/filter-characters-by-frequency/) | 🟢 Easy | `Maths` | 2026-08-22 |
+| 3665 | [Twisted Mirror Path Count](https://leetcode.com/problems/twisted-mirror-path-count/) | 🟡 Medium | `Arrays` | 2026-10-31 |
 | 3689 | [Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/) | 🟡 Medium | `Greedy` | 2026-06-09 |
 | 3699 | [Number of ZigZag Arrays I](https://leetcode.com/problems/number-of-zigzag-arrays-i/) | 🔴 Hard | `DynamicProgramming` | 2026-06-23 |
 | 3700 | [Number of ZigZag Arrays II](https://leetcode.com/problems/number-of-zigzag-arrays-ii/) | 🔴 Hard | `DynamicProgramming` | 2026-06-25 |
