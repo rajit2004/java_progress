@@ -1,7 +1,10 @@
 class Solution {
     public int minMoves(int[] nums) {
-        int lo = Arrays.stream(nums).min().getAsInt(), moves = 0;
-        for (int x : nums) moves += x - lo;
-        return moves;
+        int sum = 0, min = Integer.MAX_VALUE;
+        for (int x : nums) {
+            sum += x;
+            min = Math.min(min, x);
+        }
+        return sum - nums.length * min;
     }
 }
