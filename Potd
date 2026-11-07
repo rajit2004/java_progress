@@ -1,35 +1,52 @@
 class Solution {
 
-    public int[] countServers(int n, int[][] logs, int x, int[] queries) {
-        Arrays.sort(logs, (a, b) -> Integer.compare(a[1], b[1]));
+    public int[] assignTasks(int[] servers, int[] tasks) {
+        // Busy servers, stored as pairs (t, idx)
+        PriorityQueue<int[]> busy = new PriorityQueue<>((a, b) -> a[0] - b[0]);
 
-        int m = queries.length;
-        Integer[] ids = new Integer[m];
-        for (int i = 0; i < m; i++) ids[i] = i;
-        Arrays.sort(ids, (i, j) -> Integer.compare(queries[i], queries[j]));
-
-        int[] ans = new int[m];
-        int[] cnt = new int[n + 1];
-        int left = 0,
-            right = 0,
-            active = 0;
-
-        for (int i : ids) {
-            int q = queries[i];
-            while (right < logs.length && logs[right][1] <= q) {
-                int id = logs[right++][0];
-                if (cnt[id]++ == 0) {
-                    ++active;
-                }
+        // Idle servers, stored as pairs (w, idx)
+        PriorityQueue<int[]> idle = new PriorityQueue<>((a, b) -> {
+            if (a[0] != b[0]) {
+                return a[0] - b[0];
             }
-            while (left < right && logs[left][1] < q - x) {
-                int id = logs[left++][0];
-                if (--cnt[id] == 0) {
-                    --active;
-                }
-            }
-            ans[i] = n - active;
+            return a[1] - b[1];
+        });
+
+        for (int i = 0; i < servers.length; i++) {
+            idle.offer(new int[] { servers[i], i });
         }
+
+        int ts = 0;
+        int[] ans = new int[tasks.length];
+
+        for (int i = 0; i < tasks.length; i++) {
+            ts = Math.max(ts, i);
+            release(busy, idle, servers, ts);
+            if (idle.isEmpty()) {
+                ts = busy.peek()[0];
+                release(busy, idle, servers, ts);
+            }
+
+            int[] server = idle.poll();
+            int idx = server[1];
+            ans[i] = idx;
+            busy.offer(new int[] { ts + tasks[i], idx });
+        }
+
         return ans;
+    }
+
+    // Move servers with t<=ts from priority queue busy to priority queue idle one by one
+    private void release(
+        PriorityQueue<int[]> busy,
+        PriorityQueue<int[]> idle,
+        int[] servers,
+        int ts
+    ) {
+        while (!busy.isEmpty() && busy.peek()[0] <= ts) {
+            int[] server = busy.poll();
+            int idx = server[1];
+            idle.offer(new int[] { servers[idx], idx });
+        }
     }
 }
