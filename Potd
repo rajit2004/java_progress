@@ -1,52 +1,47 @@
 class Solution {
 
-    public int[] assignTasks(int[] servers, int[] tasks) {
-        // Busy servers, stored as pairs (t, idx)
-        PriorityQueue<int[]> busy = new PriorityQueue<>((a, b) -> a[0] - b[0]);
+    public int countServers(int[][] grid) {
+        int numRows = grid.length;
+        int numCols = numRows > 0 ? grid[0].length : 0;
+        int communicableServersCount = 0;
 
-        // Idle servers, stored as pairs (w, idx)
-        PriorityQueue<int[]> idle = new PriorityQueue<>((a, b) -> {
-            if (a[0] != b[0]) {
-                return a[0] - b[0];
+        // Traverse through the grid
+        for (int row = 0; row < numRows; ++row) {
+            for (int col = 0; col < numCols; ++col) {
+                if (grid[row][col] == 1) {
+                    boolean canCommunicate = false;
+
+                    // Check for communication in the same row
+                    for (int otherCol = 0; otherCol < numCols; ++otherCol) {
+                        if (otherCol != col && grid[row][otherCol] == 1) {
+                            canCommunicate = true;
+                            break;
+                        }
+                    }
+
+                    // If a server was found in the same row, increment
+                    // communicableServersCount
+                    if (canCommunicate) {
+                        communicableServersCount++;
+                    } else {
+                        // Check for communication in the same column
+                        for (int otherRow = 0; otherRow < numRows; ++otherRow) {
+                            if (otherRow != row && grid[otherRow][col] == 1) {
+                                canCommunicate = true;
+                                break;
+                            }
+                        }
+
+                        // If a server was found in the same column, increment
+                        // communicableServersCount
+                        if (canCommunicate) {
+                            communicableServersCount++;
+                        }
+                    }
+                }
             }
-            return a[1] - b[1];
-        });
-
-        for (int i = 0; i < servers.length; i++) {
-            idle.offer(new int[] { servers[i], i });
         }
 
-        int ts = 0;
-        int[] ans = new int[tasks.length];
-
-        for (int i = 0; i < tasks.length; i++) {
-            ts = Math.max(ts, i);
-            release(busy, idle, servers, ts);
-            if (idle.isEmpty()) {
-                ts = busy.peek()[0];
-                release(busy, idle, servers, ts);
-            }
-
-            int[] server = idle.poll();
-            int idx = server[1];
-            ans[i] = idx;
-            busy.offer(new int[] { ts + tasks[i], idx });
-        }
-
-        return ans;
-    }
-
-    // Move servers with t<=ts from priority queue busy to priority queue idle one by one
-    private void release(
-        PriorityQueue<int[]> busy,
-        PriorityQueue<int[]> idle,
-        int[] servers,
-        int ts
-    ) {
-        while (!busy.isEmpty() && busy.peek()[0] <= ts) {
-            int[] server = busy.poll();
-            int idx = server[1];
-            idle.offer(new int[] { servers[idx], idx });
-        }
+        return communicableServersCount;
     }
 }
