@@ -1,47 +1,75 @@
+
+import java.util.*;
+
 class Solution {
+    public List<Integer> busiestServers(int k, int[] arrival, int[] load) {
 
-    public int countServers(int[][] grid) {
-        int numRows = grid.length;
-        int numCols = numRows > 0 ? grid[0].length : 0;
-        int communicableServersCount = 0;
+        // Keep track of servers that are currently free
+        TreeSet<Integer> free = new TreeSet<>();
 
-        // Traverse through the grid
-        for (int row = 0; row < numRows; ++row) {
-            for (int col = 0; col < numCols; ++col) {
-                if (grid[row][col] == 1) {
-                    boolean canCommunicate = false;
+        for (int i = 0; i < k; i++) {
+            free.add(i);
+        }
 
-                    // Check for communication in the same row
-                    for (int otherCol = 0; otherCol < numCols; ++otherCol) {
-                        if (otherCol != col && grid[row][otherCol] == 1) {
-                            canCommunicate = true;
-                            break;
-                        }
-                    }
+        // Store busy servers with their finishing time
+        // Each entry contains {finishTime, serverNumber}
+        PriorityQueue<int[]> busy = new PriorityQueue<>(
+            (a, b) -> Integer.compare(a[0], b[0])
+        );
 
-                    // If a server was found in the same row, increment
-                    // communicableServersCount
-                    if (canCommunicate) {
-                        communicableServersCount++;
-                    } else {
-                        // Check for communication in the same column
-                        for (int otherRow = 0; otherRow < numRows; ++otherRow) {
-                            if (otherRow != row && grid[otherRow][col] == 1) {
-                                canCommunicate = true;
-                                break;
-                            }
-                        }
+        // Count how many requests each server handles
+        int[] count = new int[k];
 
-                        // If a server was found in the same column, increment
-                        // communicableServersCount
-                        if (canCommunicate) {
-                            communicableServersCount++;
-                        }
-                    }
-                }
+        for (int i = 0; i < arrival.length; i++) {
+
+            int time = arrival[i];
+
+            // Make servers free if they have finished their work
+            while (!busy.isEmpty() && busy.peek()[0] <= time) {
+                int[] finished = busy.poll();
+                free.add(finished[1]);
+            }
+
+            // Find which server this request prefers
+            int preferred = i % k;
+
+            // Look for the next available server
+            Integer server = free.ceiling(preferred);
+
+            // If nothing is available after preferred, start from the beginning
+            if (server == null && !free.isEmpty()) {
+                server = free.first();
+            }
+
+            // If all servers are busy, skip this request
+            if (server == null) {
+                continue;
+            }
+
+            // Assign the request to the selected server
+            free.remove(server);
+            count[server]++;
+
+            // Add the server to the busy queue with its finishing time
+            busy.offer(new int[]{time + load[i], server});
+        }
+
+        // Find the maximum number of requests handled by any server
+        int max = 0;
+
+        for (int c : count) {
+            max = Math.max(max, c);
+        }
+
+        // Return all servers that handled the maximum number of requests
+        List<Integer> result = new ArrayList<>();
+
+        for (int i = 0; i < k; i++) {
+            if (count[i] == max) {
+                result.add(i);
             }
         }
 
-        return communicableServersCount;
+        return result;
     }
 }
