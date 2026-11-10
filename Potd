@@ -1,75 +1,15 @@
-
-import java.util.*;
-
 class Solution {
-    public List<Integer> busiestServers(int k, int[] arrival, int[] load) {
 
-        // Keep track of servers that are currently free
-        TreeSet<Integer> free = new TreeSet<>();
-
-        for (int i = 0; i < k; i++) {
-            free.add(i);
+    public int climbStairs(int n, int[] costs) {
+        int a = 0,
+            b = 0,
+            c = 0;
+        for (int i = 0; i < n; ++i) {
+            int nxt = Math.min(Math.min(a + 9, b + 4), c + 1) + costs[i];
+            a = b;
+            b = c;
+            c = nxt;
         }
-
-        // Store busy servers with their finishing time
-        // Each entry contains {finishTime, serverNumber}
-        PriorityQueue<int[]> busy = new PriorityQueue<>(
-            (a, b) -> Integer.compare(a[0], b[0])
-        );
-
-        // Count how many requests each server handles
-        int[] count = new int[k];
-
-        for (int i = 0; i < arrival.length; i++) {
-
-            int time = arrival[i];
-
-            // Make servers free if they have finished their work
-            while (!busy.isEmpty() && busy.peek()[0] <= time) {
-                int[] finished = busy.poll();
-                free.add(finished[1]);
-            }
-
-            // Find which server this request prefers
-            int preferred = i % k;
-
-            // Look for the next available server
-            Integer server = free.ceiling(preferred);
-
-            // If nothing is available after preferred, start from the beginning
-            if (server == null && !free.isEmpty()) {
-                server = free.first();
-            }
-
-            // If all servers are busy, skip this request
-            if (server == null) {
-                continue;
-            }
-
-            // Assign the request to the selected server
-            free.remove(server);
-            count[server]++;
-
-            // Add the server to the busy queue with its finishing time
-            busy.offer(new int[]{time + load[i], server});
-        }
-
-        // Find the maximum number of requests handled by any server
-        int max = 0;
-
-        for (int c : count) {
-            max = Math.max(max, c);
-        }
-
-        // Return all servers that handled the maximum number of requests
-        List<Integer> result = new ArrayList<>();
-
-        for (int i = 0; i < k; i++) {
-            if (count[i] == max) {
-                result.add(i);
-            }
-        }
-
-        return result;
+        return c;
     }
 }
