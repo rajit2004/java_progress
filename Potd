@@ -1,34 +1,27 @@
-import java.util.List;
-
 class Solution {
-    public int minimumSumSubarray(List<Integer> nums, int l, int r) {
-        
-        int minSum = Integer.MAX_VALUE;
-        for (int i = l; i <= r; i++) {
-            int currSum = 0;
 
-            for (int j = 0; j < i; j++) {
-                currSum += nums.get(j);
+    public int numOfSubarrays(int[] arr) {
+        final int MOD = 1_000_000_007;
+        int count = 0, prefixSum = 0;
+        // evenCount starts as one since the initial sum (0) is even
+        int oddCount = 0, evenCount = 1;
+
+        for (int num : arr) {
+            prefixSum += num;
+            // If current prefix sum is even, add the number of odd subarrays
+            if (prefixSum % 2 == 0) {
+                count += oddCount;
+                evenCount++;
+            } else {
+                // If current prefix sum is odd, add the number of even
+                // subarrays
+                count += evenCount;
+                oddCount++;
             }
-            if (currSum > 0) {
-                minSum = Math.min(minSum, currSum);
-            }
 
-            int low = 0, high = i;
-
-            while (high < nums.size()) {
-                currSum -= nums.get(low);
-                currSum += nums.get(high);
-
-                low++;
-                high++;
-
-                if (currSum > 0) {
-                    minSum = Math.min(minSum, currSum);
-                }
-            }
+            count %= MOD; // To handle large results
         }
-        if (minSum == Integer.MAX_VALUE) return -1;
-        return minSum;
+
+        return count;
     }
 }
