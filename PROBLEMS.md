@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **262** problems solved in Java — auto-updated on every push.
-> Last updated: 31 Oct 2026, 17:08 UTC
+> All **280** problems solved in Java — auto-updated on every push.
+> Last updated: 23 Nov 2026, 17:59 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 131 | 93 | 38 | 262 |
+| 135 | 103 | 42 | 280 |
 
 ---
 
@@ -22,7 +22,7 @@
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | `Strings` | 2026-04-12 |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium | `Greedy` | 2026-09-17 |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | 🟢 Easy | `Strings` | 2026-05-01 |
-| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 Easy | `Strings` | 2026-04-29 |
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 Easy | `Arrays` | 2026-04-29 |
 | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | 🟡 Medium | `Strings` | 2026-07-04 |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 Easy | `Strings` | 2026-05-03 |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | 🟡 Medium | `Strings` | 2026-07-04 |
@@ -33,17 +33,17 @@
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 🟡 Medium | `BinarySearch` | 2026-04-05 |
 | 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🟡 Medium | `BinarySearch` | 2026-04-03 |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 🟢 Easy | `BinarySearch` | 2026-04-08 |
-| 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | 🔴 Hard | `Arrays` | 2026-04-16 |
+| 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | 🔴 Hard | `Arrays` | 2026-04-13 |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | 🟢 Easy | `Strings` | 2026-04-17 |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | `Numbers` | 2026-04-12 |
-| 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | 🟢 Easy | `Strings` | 2026-05-05 |
+| 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | 🟢 Easy | `TwoPointers` | 2026-05-05 |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 Easy | `BinarySearch` | 2026-05-20 |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | 🟢 Easy | `DynamicProgramming` | 2026-06-10 |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | 🟡 Medium | `Arrays` | 2026-04-24 |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | 🟡 Medium | `Arrays` | 2026-04-27 |
 | 81 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | 🟡 Medium | `BinarySearch` | 2026-04-06 |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | 🟢 Easy | `LinkedList` | 2026-10-30 |
-| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | 🟢 Easy | `Strings` | 2026-05-07 |
+| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | 🟢 Easy | `Arrays` | 2026-05-07 |
 | 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | 🔴 Hard | `DynamicProgramming` | 2026-09-07 |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | 🟢 Easy | `Arrays` | 2026-05-15 |
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | 🟢 Easy | `DynamicProgramming` | 2026-06-10 |
@@ -67,7 +67,7 @@
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 Easy | `BitManipulation` | 2026-04-19 |
 | 240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | 🟡 Medium | `Arrays` | 2026-04-24 |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 🟢 Easy | `Misc` | 2026-04-21 |
-| 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | 🟢 Easy | `Maths` | 2026-04-08 |
+| 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | 🟢 Easy | `Maths` | 2026-04-07 |
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | 🟢 Easy | `Numbers` | 2026-04-17 |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | 🟢 Easy | `Arrays` | 2026-04-14 |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy | `TwoPointers` | 2026-05-10 |
@@ -90,7 +90,7 @@
 | 414 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | 🟢 Easy | `Arrays` | 2026-07-06 |
 | 415 | [Add Strings](https://leetcode.com/problems/add-strings/) | 🟢 Easy | `Strings` | 2026-07-19 |
 | 442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | 🟡 Medium | `Arrays` | 2026-04-15 |
-| 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | 🟢 Easy | `Arrays` | 2026-04-14 |
+| 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | 🟢 Easy | `Arrays` | 2026-04-15 |
 | 455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | 🟢 Easy | `Greedy` | 2026-05-29 |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🟢 Easy | `Arrays` | 2026-06-14 |
 | 486 | [Predict the Winner](https://leetcode.com/problems/predict-the-winner/) | 🟡 Medium | `Recursion` | 2026-08-01 |
@@ -126,6 +126,7 @@
 | 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | 🟢 Easy | `Strings` | 2026-06-22 |
 | 1190 | [Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) | 🟡 Medium | `Strings` | 2026-09-27 |
 | 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 Easy | `Arrays` | 2026-07-20 |
+| 1267 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/) | 🟡 Medium | `Arrays` | 2026-11-23 |
 | 1288 | [Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/) | 🟡 Medium | `Arrays` | 2026-07-06 |
 | 1291 | [Sequential Digits](https://leetcode.com/problems/sequential-digits/) | 🟡 Medium | `Enum` | 2026-07-14 |
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | 🟢 Easy | `Numbers` | 2026-03-26 |
@@ -136,6 +137,7 @@
 | 1344 | [Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | 🟡 Medium | `Maths` | 2026-06-18 |
 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | 🟢 Easy | `Numbers` | 2026-04-16 |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | 🟢 Easy | `Arrays` | 2026-05-22 |
+| 1352 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/) | 🟡 Medium | `PrefixSum` | 2026-11-23 |
 | 1358 | [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | 🟡 Medium | `SlidingWindow` | 2026-06-30 |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | 🟢 Easy | `Misc` | 2026-04-11 |
 | 1386 | [Cinema Seat Allocation](https://leetcode.com/problems/cinema-seat-allocation/) | 🟡 Medium | `Greedy` | 2026-08-19 |
@@ -147,6 +149,7 @@
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | 🟢 Easy | `PrefixSum` | 2026-08-19 |
 | 1510 | [Stone Game IV](https://leetcode.com/problems/stone-game-iv/) | 🔴 Hard | `DynamicProgramming` | 2026-08-10 |
 | 1520 | [Maximum Number of Non-Overlapping Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/) | 🔴 Hard | `Strings` | 2026-09-18 |
+| 1524 | [Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | 🟡 Medium | `Arrays` | 2026-11-23 |
 | 1541 | [Minimum Insertions to Balance a Parentheses String](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/) | 🟡 Medium | `Strings` | 2026-10-10 |
 | 1563 | [Stone Game V](https://leetcode.com/problems/stone-game-v/) | 🔴 Hard | `DynamicProgramming` | 2026-08-17 |
 | 1569 | [Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/) | 🔴 Hard | `Tree` | 2026-10-29 |
@@ -164,10 +167,11 @@
 | 1840 | [Maximum Building Height](https://leetcode.com/problems/maximum-building-height/) | 🔴 Hard | `Arrays` | 2026-06-20 |
 | 1846 | [Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/) | 🟡 Medium | `Greedy` | 2026-06-29 |
 | 1872 | [Stone Game VIII](https://leetcode.com/problems/stone-game-viii/) | 🔴 Hard | `PrefixSum` | 2026-08-24 |
+| 1882 | [Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/) | 🟡 Medium | `Queue` | 2026-11-23 |
 | 1927 | [Sum Game](https://leetcode.com/problems/sum-game/) | 🟡 Medium | `Greedy` | 2026-08-23 |
 | 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors/) | 🟢 Easy | `Enum` | 2026-07-14 |
 | 1967 | [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) | 🟢 Easy | `Strings` | 2026-05-21 |
-| 1979 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 Easy | `Numbers` | 2026-07-18 |
+| 1979 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 Easy | `Arrays` | 2026-07-14 |
 | 1991 | [Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/) | 🟢 Easy | `PrefixSum` | 2026-06-07 |
 | 2029 | [Stone Game IX](https://leetcode.com/problems/stone-game-ix/) | 🟡 Medium | `Arrays` | 2026-08-17 |
 | 2058 | [Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | 🟡 Medium | `LinkedList` | 2026-09-03 |
@@ -175,12 +179,14 @@
 | 2091 | [Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/) | 🟡 Medium | `Arrays` | 2026-08-30 |
 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | 🟡 Medium | `LinkedList` | 2026-06-15 |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | 🟢 Easy | `Strings` | 2026-04-16 |
+| 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/) | 🟢 Easy | `Strings` | 2026-11-23 |
 | 2126 | [Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/) | 🟡 Medium | `Greedy` | 2026-05-31 |
 | 2129 | [Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/) | 🟢 Easy | `Strings` | 2026-05-21 |
 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | 🟡 Medium | `LinkedList` | 2026-06-14 |
 | 2144 | [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | 🟢 Easy | `Greedy` | 2026-06-01 |
 | 2161 | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | 🟡 Medium | `Arrays` | 2026-06-08 |
 | 2196 | [Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/) | 🟡 Medium | `Tree` | 2026-06-07 |
+| 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 Easy | `Strings` | 2026-11-23 |
 | 2265 | [Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/) | 🟡 Medium | `Tree` | 2026-09-17 |
 | 2267 | [ Check if There Is a Valid Parentheses String Path](https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/) | 🔴 Hard | `DynamicProgramming` | 2026-10-10 |
 | 2287 | [Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/) | 🟢 Easy | `Strings` | 2026-06-22 |
@@ -191,16 +197,20 @@
 | 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/) | 🔴 Hard | `TwoPointers` | 2026-09-17 |
 | 2492 | [Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | 🟡 Medium | `Graphs` | 2026-07-06 |
 | 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/) | 🟢 Easy | `Arrays` | 2026-05-11 |
+| 2567 | [Minimum Score by Changing Two Elements](https://leetcode.com/problems/minimum-score-by-changing-two-elements/) | 🟡 Medium | `Greedy` | 2026-11-23 |
 | 2656 | [Maximum Sum With Exactly K Elements ](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/) | 🟢 Easy | `Greedy` | 2026-08-21 |
 | 2670 | [Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/) | 🟢 Easy | `Arrays` | 2026-06-07 |
 | 2685 | [Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/) | 🟡 Medium | `Graphs` | 2026-07-14 |
+| 2747 | [Count Zero Request Servers](https://leetcode.com/problems/count-zero-request-servers/) | 🟡 Medium | `SlidingWindow` | 2026-11-23 |
 | 2754 | [Bind Function to Context](https://leetcode.com/problems/bind-function-to-context/) | 🟡 Medium | `PrefixSum` | 2026-06-07 |
 | 2778 | [Sum of Squares of Special Elements ](https://leetcode.com/problems/sum-of-squares-of-special-elements/) | 🟢 Easy | `Arrays` | 2026-10-11 |
 | 2784 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/) | 🟢 Easy | `Arrays` | 2026-05-20 |
 | 2812 | [Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/) | 🟡 Medium | `Arrays` | 2026-07-01 |
 | 2897 | [Apply Operations on Array to Maximize Sum of Squares](https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/) | 🔴 Hard | `Arrays` | 2026-10-29 |
 | 2904 | [Shortest and Lexicographically Smallest Beautiful String](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | 🟡 Medium | `Strings` | 2026-08-26 |
+| 2911 | [Minimum Changes to Make K Semi-palindromes](https://leetcode.com/problems/minimum-changes-to-make-k-semi-palindromes/) | 🔴 Hard | `Strings` | 2026-11-23 |
 | 2913 | [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/) | 🟢 Easy | `Arrays` | 2026-10-29 |
+| 2914 | [Minimum Number of Changes to Make Binary String Beautiful](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/) | 🟡 Medium | `Strings` | 2026-11-23 |
 | 2916 | [Subarrays Distinct Element Sum of Squares II](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/) | 🔴 Hard | `Arrays` | 2026-10-29 |
 | 2948 | [Make Lexicographically Smallest Array by Swapping Elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/) | 🟡 Medium | `Arrays` | 2026-08-30 |
 | 2958 | [Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) | 🟡 Medium | `SlidingWindow` | 2026-08-12 |
@@ -208,19 +218,24 @@
 | 3014 | [Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | 🟢 Easy | `Strings` | 2026-07-31 |
 | 3016 | [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | 🟡 Medium | `Strings` | 2026-07-31 |
 | 3020 | [Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/) | 🟡 Medium | `Arrays` | 2026-06-27 |
+| 3041 | [Maximize Consecutive Elements in an Array After Modification](https://leetcode.com/problems/maximize-consecutive-elements-in-an-array-after-modification/) | 🔴 Hard | `DynamicProgramming` | 2026-11-23 |
 | 3069 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 🟢 Easy | `Arrays` | 2026-08-21 |
 | 3074 | [Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/) | 🟢 Easy | `Arrays` | 2026-05-22 |
 | 3090 | [Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | 🟢 Easy | `SlidingWindow` | 2026-08-15 |
+| 3105 | [Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/) | 🟢 Easy | `Arrays` | 2026-11-23 |
 | 3116 | [Kth Smallest Amount With Single Denomination Combination](https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/) | 🔴 Hard | `BinarySearch` | 2026-08-21 |
 | 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | `Strings` | 2026-05-26 |
 | 3286 | [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | 🟡 Medium | `Arrays` | 2026-07-04 |
 | 3300 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | 🟢 Easy | `Arrays` | 2026-05-29 |
 | 3312 | [Sorted GCD Pair Queries](https://leetcode.com/problems/sorted-gcd-pair-queries/) | 🔴 Hard | `Numbers` | 2026-07-17 |
+| 3331 | [Find Subtree Sizes After Changes](https://leetcode.com/problems/find-subtree-sizes-after-changes/) | 🟡 Medium | `Tree` | 2026-11-23 |
 | 3336 | [Find the Number of Subsequences With Equal GCD](https://leetcode.com/problems/find-the-number-of-subsequences-with-equal-gcd/) | 🔴 Hard | `DynamicProgramming` | 2026-07-14 |
 | 3345 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | 🟢 Easy | `Enum` | 2026-08-07 |
 | 3360 | [Stone Removal Game](https://leetcode.com/problems/stone-removal-game/) | 🟢 Easy | `Maths` | 2026-08-09 |
+| 3364 | [Minimum Positive Sum Subarray ](https://leetcode.com/problems/minimum-positive-sum-subarray/) | 🟢 Easy | `SlidingWindow` | 2026-11-23 |
 | 3411 | [Maximum Subarray With Equal Products](https://leetcode.com/problems/maximum-subarray-with-equal-products/) | 🟢 Easy | `SlidingWindow` | 2026-07-14 |
 | 3414 | [Maximum Score of Non-overlapping Intervals](https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals/) | 🔴 Hard | `DynamicProgramming` | 2026-09-17 |
+| 3420 | [Count Non-Decreasing Subarrays After K Operations](https://leetcode.com/problems/count-non-decreasing-subarrays-after-k-operations/) | 🔴 Hard | `Queue` | 2026-11-23 |
 | 3471 | [Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer/) | 🟢 Easy | `Arrays` | 2026-08-18 |
 | 3483 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | 🟢 Easy | `Arrays` | 2026-09-17 |
 | 3499 | [Maximize Active Section with Trade I](https://leetcode.com/problems/maximize-active-section-with-trade-i/) | 🟡 Medium | `Strings` | 2026-07-21 |
@@ -246,6 +261,7 @@
 | 3662 | [Filter Characters by Frequency](https://leetcode.com/problems/filter-characters-by-frequency/) | 🟢 Easy | `Maths` | 2026-08-22 |
 | 3665 | [Twisted Mirror Path Count](https://leetcode.com/problems/twisted-mirror-path-count/) | 🟡 Medium | `Arrays` | 2026-10-31 |
 | 3689 | [Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/) | 🟡 Medium | `Greedy` | 2026-06-09 |
+| 3693 | [Climbing Stairs II](https://leetcode.com/problems/climbing-stairs-ii/) | 🟡 Medium | `Arrays` | 2026-11-23 |
 | 3699 | [Number of ZigZag Arrays I](https://leetcode.com/problems/number-of-zigzag-arrays-i/) | 🔴 Hard | `DynamicProgramming` | 2026-06-23 |
 | 3700 | [Number of ZigZag Arrays II](https://leetcode.com/problems/number-of-zigzag-arrays-ii/) | 🔴 Hard | `DynamicProgramming` | 2026-06-25 |
 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | 🟡 Medium | `BitManipulation` | 2026-08-15 |
@@ -262,12 +278,14 @@
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/) | 🟢 Easy | `Maths` | 2026-07-08 |
 | 3756 | [Concatenate Non-Zero Digits and Multiply by Sum II](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/) | 🟡 Medium | `PrefixSum` | 2026-07-08 |
 | 3783 | [Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/) | 🟢 Easy | `Strings` | 2026-04-17 |
+| 3789 | [Minimum Cost to Acquire Required Items](https://leetcode.com/problems/minimum-cost-to-acquire-required-items/) | 🟡 Medium | `Maths` | 2026-11-23 |
 | 3838 | [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | 🟢 Easy | `Strings` | 2026-06-13 |
 | 3867 | [Sum of GCD of Formed Pairs](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | 🟡 Medium | `Numbers` | 2026-07-16 |
 | 3870 | [Count Commas in Range](https://leetcode.com/problems/count-commas-in-range/) | 🟢 Easy | `Maths` | 2026-09-08 |
 | 3871 | [Count Commas in Range II](https://leetcode.com/problems/count-commas-in-range-ii/) | 🟡 Medium | `Maths` | 2026-09-17 |
 | 3875 | [Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/) | 🟢 Easy | `Maths` | 2026-09-03 |
 | 3876 | [Construct Uniform Parity Array II](https://leetcode.com/problems/construct-uniform-parity-array-ii/) | 🟡 Medium | `Maths` | 2026-09-03 |
+| 3886 | [Sum of Sortable Integers](https://leetcode.com/problems/sum-of-sortable-integers/) | 🔴 Hard | `Arrays` | 2026-11-23 |
 | 3903 | [Smallest Stable Index I](https://leetcode.com/problems/smallest-stable-index-i/) | 🟢 Easy | `Arrays` | 2026-09-04 |
 | 3904 | [Smallest Stable Index II](https://leetcode.com/problems/smallest-stable-index-ii/) | 🟡 Medium | `Arrays` | 2026-09-05 |
 | 3941 | [Password Strength](https://leetcode.com/problems/password-strength/) | 🟡 Medium | `Strings` | 2026-06-02 |
