@@ -1,7 +1,7 @@
 # 🧠 LeetCode Solutions
 
 > All **295** problems solved in Java — auto-updated on every push.
-> Last updated: 23 Nov 2026, 20:43 UTC
+> Last updated: 24 Nov 2026, 16:20 UTC
 
 ## 📊 Summary
 
@@ -238,7 +238,7 @@
 | 3345 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | 🟢 Easy | `Enum` | 2026-08-07 |
 | 3360 | [Stone Removal Game](https://leetcode.com/problems/stone-removal-game/) | 🟢 Easy | `Maths` | 2026-08-09 |
 | 3364 | [Minimum Positive Sum Subarray ](https://leetcode.com/problems/minimum-positive-sum-subarray/) | 🟢 Easy | `SlidingWindow` | 2026-11-23 |
-| 3411 | [Maximum Subarray With Equal Products](https://leetcode.com/problems/maximum-subarray-with-equal-products/) | 🟢 Easy | `SlidingWindow` | 2026-07-14 |
+| 3411 | [Maximum Subarray With Equal Products](https://leetcode.com/problems/maximum-subarray-with-equal-products/) | 🟢 Easy | `Enum` | 2026-11-24 |
 | 3414 | [Maximum Score of Non-overlapping Intervals](https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals/) | 🔴 Hard | `DynamicProgramming` | 2026-09-17 |
 | 3420 | [Count Non-Decreasing Subarrays After K Operations](https://leetcode.com/problems/count-non-decreasing-subarrays-after-k-operations/) | 🔴 Hard | `Queue` | 2026-11-23 |
 | 3471 | [Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer/) | 🟢 Easy | `Arrays` | 2026-08-18 |
