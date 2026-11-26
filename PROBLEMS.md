@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **295** problems solved in Java — auto-updated on every push.
-> Last updated: 26 Nov 2026, 18:17 UTC
+> All **296** problems solved in Java — auto-updated on every push.
+> Last updated: 26 Nov 2026, 18:20 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 139 | 112 | 44 | 295 |
+| 139 | 112 | 45 | 296 |
 
 ---
 
@@ -300,6 +300,7 @@
 | 3886 | [Sum of Sortable Integers](https://leetcode.com/problems/sum-of-sortable-integers/) | 🔴 Hard | `Arrays` | 2026-11-23 |
 | 3903 | [Smallest Stable Index I](https://leetcode.com/problems/smallest-stable-index-i/) | 🟢 Easy | `Arrays` | 2026-09-04 |
 | 3904 | [Smallest Stable Index II](https://leetcode.com/problems/smallest-stable-index-ii/) | 🟡 Medium | `Arrays` | 2026-09-05 |
+| 3934 | [Smallest Unique Subarray](https://leetcode.com/problems/smallest-unique-subarray/) | 🔴 Hard | `Arrays` | 2026-11-26 |
 | 3941 | [Password Strength](https://leetcode.com/problems/password-strength/) | 🟡 Medium | `Strings` | 2026-06-02 |
 | 3942 | [Minimum Operations to Sort a Permutation](https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/) | 🟡 Medium | `Arrays` | 2026-11-24 |
 | 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | `Numbers` | 2026-06-04 |
