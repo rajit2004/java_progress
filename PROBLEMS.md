@@ -1,13 +1,13 @@
 # 🧠 LeetCode Solutions
 
-> All **296** problems solved in Java — auto-updated on every push.
-> Last updated: 26 Nov 2026, 18:20 UTC
+> All **297** problems solved in Java — auto-updated on every push.
+> Last updated: 27 Nov 2026, 18:15 UTC
 
 ## 📊 Summary
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | Total |
 |:-------:|:---------:|:-------:|:-----:|
-| 139 | 112 | 45 | 296 |
+| 139 | 113 | 45 | 297 |
 
 ---
 
@@ -304,6 +304,7 @@
 | 3941 | [Password Strength](https://leetcode.com/problems/password-strength/) | 🟡 Medium | `Strings` | 2026-06-02 |
 | 3942 | [Minimum Operations to Sort a Permutation](https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/) | 🟡 Medium | `Arrays` | 2026-11-24 |
 | 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | `Numbers` | 2026-06-04 |
+| 3946 | [Maximum Number of Items From Sale I](https://leetcode.com/problems/maximum-number-of-items-from-sale-i/) | 🟡 Medium | `Arrays` | 2026-11-27 |
 | 3948 | [Lexicographically Maximum MEX Array](https://leetcode.com/problems/lexicographically-maximum-mex-array/) | 🔴 Hard | `Strings` | 2026-09-20 |
 | 3950 | [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/) | 🟢 Easy | `Numbers` | 2026-06-07 |
 | 3951 | [Minimum Energy to Maintain Brightness](https://leetcode.com/problems/minimum-energy-to-maintain-brightness/) | 🟡 Medium | `Greedy` | 2026-06-07 |
